@@ -1,0 +1,2627 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Me",
+				"MembFocusMod"
+			],
+			[
+				"po",
+				"portrait"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"A",
+				"AlbumModel"
+			],
+			[
+				"M",
+				"MemberModel"
+			],
+			[
+				"sc",
+				"scan_num"
+			],
+			[
+				"al",
+				"albumModel"
+			],
+			[
+				"li",
+				"lineTime"
+			],
+			[
+				"leve",
+				"level"
+			],
+			[
+				"Li",
+				"line_time"
+			],
+			[
+				"getL",
+				"getLineTime"
+			],
+			[
+				"arr",
+				"arraySearch"
+			],
+			[
+				"Goo",
+				"GoodsProdId"
+			],
+			[
+				"G",
+				"GoodsProdId"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"ar",
+				"array"
+			],
+			[
+				"goo",
+				"goods_sku"
+			],
+			[
+				"goods",
+				"goods_id"
+			],
+			[
+				"rs",
+				"result2"
+			],
+			[
+				"shop",
+				"shop_info_id"
+			],
+			[
+				"setShop",
+				"setShopInfoIdAttr"
+			],
+			[
+				"god",
+				"goodsModel"
+			],
+			[
+				"num",
+				"number"
+			],
+			[
+				"yj",
+				"yj_goods_attr_value"
+			],
+			[
+				"val",
+				"value2"
+			],
+			[
+				"good",
+				"goods_attr_value_info"
+			],
+			[
+				"sho",
+				"ShopInfoId"
+			],
+			[
+				"resu",
+				"request"
+			],
+			[
+				"is",
+				"isset"
+			],
+			[
+				"se",
+				"selfShopInfoId"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"role",
+				"role_id"
+			],
+			[
+				"id",
+				"identity"
+			],
+			[
+				"re",
+				"realOldPw"
+			],
+			[
+				"is_nu",
+				"is_numeric"
+			],
+			[
+				"Sh",
+				"ShopInfo"
+			],
+			[
+				"baoming",
+				"baoming_phone"
+			],
+			[
+				"key",
+				"key2"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"shopInfo",
+				"ShopInfoModel"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"co",
+				"coloums"
+			],
+			[
+				"t",
+				"tmp"
+			],
+			[
+				"ch",
+				"childResult"
+			],
+			[
+				"Sho",
+				"ShopCateService"
+			],
+			[
+				"Shop",
+				"ShopUserModel"
+			],
+			[
+				"wh",
+				"where"
+			],
+			[
+				"pa",
+				"parent_id"
+			],
+			[
+				"identi",
+				"hw_Identify"
+			],
+			[
+				"p",
+				"parent_path"
+			],
+			[
+				"getP",
+				"getPk"
+			],
+			[
+				"n",
+				"number"
+			],
+			[
+				"parent",
+				"parent_id"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"ad",
+				"adminInfo"
+			],
+			[
+				"jwt",
+				"jwtKey"
+			],
+			[
+				"lis",
+				"listen"
+			],
+			[
+				"req",
+				"requesterID"
+			],
+			[
+				"is_A",
+				"is_array"
+			],
+			[
+				"send",
+				"sendPhoneMessage"
+			],
+			[
+				"uns",
+				"unset"
+			],
+			[
+				"ver",
+				"vertifyCode"
+			],
+			[
+				"T",
+				"TEMP_CODE_MEMBER"
+			],
+			[
+				"gr",
+				"grade2"
+			],
+			[
+				"fr",
+				"from"
+			],
+			[
+				"is_n",
+				"is_numeric"
+			],
+			[
+				"grade",
+				"grade1"
+			],
+			[
+				"clas",
+				"class_id"
+			],
+			[
+				"getG",
+				"getGradeName"
+			],
+			[
+				"grad",
+				"grade_id"
+			],
+			[
+				"school",
+				"school_type"
+			],
+			[
+				"o",
+				"otherAddr"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"all",
+				"allCar2"
+			],
+			[
+				"data",
+				"data2"
+			],
+			[
+				"arraym",
+				"array_merge"
+			],
+			[
+				"fil",
+				"filter2"
+			],
+			[
+				"vo",
+				"vote_op_id"
+			],
+			[
+				"cl",
+				"coloum"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"array_u",
+				"array_unique"
+			],
+			[
+				"vid",
+				"vid2"
+			],
+			[
+				"u",
+				"uid2"
+			],
+			[
+				"stat",
+				"status"
+			],
+			[
+				"active",
+				"active_id"
+			],
+			[
+				"Ac",
+				"ActiveModel"
+			],
+			[
+				"vot",
+				"voteImgModel"
+			],
+			[
+				"resul",
+				"result2"
+			],
+			[
+				"org",
+				"OrgBeijing"
+			],
+			[
+				"isS",
+				"isSign"
+			],
+			[
+				"ob",
+				"obj"
+			],
+			[
+				"acti",
+				"active_type"
+			],
+			[
+				"fo",
+				"foreach\tforeach …"
+			],
+			[
+				"go",
+				"group"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"ke",
+				"key2"
+			],
+			[
+				"chil",
+				"childList"
+			],
+			[
+				"schoo",
+				"school_type"
+			],
+			[
+				"tak",
+				"takepartin_type"
+			],
+			[
+				"is_s",
+				"is_string"
+			],
+			[
+				"obj",
+				"objToArr"
+			],
+			[
+				"get_class",
+				"get_class_methods"
+			],
+			[
+				"sa",
+				"sa_or_up"
+			],
+			[
+				"status",
+				"status_code"
+			],
+			[
+				"sys",
+				"system"
+			],
+			[
+				"ord",
+				"order_id"
+			],
+			[
+				"str",
+				"stripos"
+			],
+			[
+				"pho",
+				"photo_id"
+			],
+			[
+				"date",
+				"dateline"
+			],
+			[
+				"prod",
+				"product_id"
+			],
+			[
+				"int",
+				"intro"
+			],
+			[
+				"pr",
+				"product_id"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"page",
+				"pagedata"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "application/vgirl/service/AlbumService.php",
+			"settings":
+			{
+				"buffer_size": 8337,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/vgirl/controller/Album.php",
+			"settings":
+			{
+				"buffer_size": 5789,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/vgirl/controller/Rank.php",
+			"settings":
+			{
+				"buffer_size": 1252,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/vgirl/controller/Pic.php",
+			"settings":
+			{
+				"buffer_size": 2756,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/vgirl/controller/Modeler.php",
+			"settings":
+			{
+				"buffer_size": 3595,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/vgirl/validate/ModelerValidate.php",
+			"settings":
+			{
+				"buffer_size": 1623,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/vgirl/validate/AlbumValidate.php",
+			"settings":
+			{
+				"buffer_size": 1265,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/vgirl/validate/MemberValidate.php",
+			"settings":
+			{
+				"buffer_size": 1382,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/vgirl/service/MemberService.php",
+			"settings":
+			{
+				"buffer_size": 4034,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/vgirl/model/Modeler.php",
+			"settings":
+			{
+				"buffer_size": 2961,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/common/model/Modeler.php",
+			"settings":
+			{
+				"buffer_size": 182,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/extra/yezhu_noauth.php",
+			"settings":
+			{
+				"buffer_size": 1293,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/vgirl/controller/Member.php",
+			"settings":
+			{
+				"buffer_size": 3219,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/vgirl/service/ModelerService.php",
+			"settings":
+			{
+				"buffer_size": 3610,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/commpont/controller/Pic.php",
+			"settings":
+			{
+				"buffer_size": 1734,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/common/controller/Middle.php",
+			"settings":
+			{
+				"buffer_size": 2563,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "thinkphp/library/think/db/Query.php",
+			"settings":
+			{
+				"buffer_size": 83292,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/vgirl/model/Album.php",
+			"settings":
+			{
+				"buffer_size": 2440,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/vgirl/controller/System.php",
+			"settings":
+			{
+				"buffer_size": 1126,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/vgirl/service/SystemService.php",
+			"settings":
+			{
+				"buffer_size": 1616,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/vgirl/model/Carouse.php",
+			"settings":
+			{
+				"buffer_size": 225,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/vgirl/model/AlbumCate.php",
+			"settings":
+			{
+				"buffer_size": 996,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/vgirl/model/Member.php",
+			"settings":
+			{
+				"buffer_size": 2328,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/vgirl/model/MembFocus.php",
+			"settings":
+			{
+				"buffer_size": 1464,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/common/model/MembFocus.php",
+			"settings":
+			{
+				"buffer_size": 189,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/vgirl/validate/MembFocusValidate.php",
+			"settings":
+			{
+				"buffer_size": 543,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/vgirl/model/MembAlbum.php",
+			"settings":
+			{
+				"buffer_size": 1459,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/vgirl/service/MembFocusService.php",
+			"settings":
+			{
+				"buffer_size": 1800,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "extend/anu/SingleFactory.php",
+			"settings":
+			{
+				"buffer_size": 828,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/vgirl/validate/MembAlbumValidate.php",
+			"settings":
+			{
+				"buffer_size": 543,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/vgirl/controller/MembFocus.php",
+			"settings":
+			{
+				"buffer_size": 2759,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/vgirl/controller/MembAlbum.php",
+			"settings":
+			{
+				"buffer_size": 2743,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/vgirl/service/MembAlbumService.php",
+			"settings":
+			{
+				"buffer_size": 1796,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/route.php",
+			"settings":
+			{
+				"buffer_size": 6895,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/vgirl/controller/AlbumCate.php",
+			"settings":
+			{
+				"buffer_size": 3538,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/member/controller/Member.php",
+			"settings":
+			{
+				"buffer_size": 848,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/member/service/MemberService.php",
+			"settings":
+			{
+				"buffer_size": 2984,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/vgirl/model/Pic.php",
+			"settings":
+			{
+				"buffer_size": 1445,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "git pu",
+		"selected_items":
+		[
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"git c",
+				"Git: Commit"
+			],
+			[
+				"git statu",
+				"Git: Status"
+			],
+			[
+				"git diff",
+				"Git: Diff Current File"
+			],
+			[
+				"git ",
+				"Git: Push"
+			],
+			[
+				"git p",
+				"Git: Push"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"git log",
+				"Git: Log All"
+			],
+			[
+				"git checkout",
+				"Git: Checkout Tag"
+			],
+			[
+				"git pul",
+				"Git: Pull"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"git ads",
+				"Git: Add Selected Hunk"
+			],
+			[
+				"git b",
+				"Git: Blame"
+			],
+			[
+				"git pull ",
+				"Git: Pull"
+			],
+			[
+				"g i t pu s",
+				"Git: Push"
+			],
+			[
+				"gitpu",
+				"Git: Push"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"gitpus",
+				"Git: Push"
+			],
+			[
+				"git com\t",
+				"Git: Commit"
+			],
+			[
+				"git ad",
+				"Git: Add Current File"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git commi",
+				"Git: Commit"
+			],
+			[
+				"git comi",
+				"Git: Commit"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Git: Pull"
+			],
+			[
+				"git blame",
+				"Git: Blame"
+			],
+			[
+				"gi t",
+				"Git: Status"
+			],
+			[
+				"git add..",
+				"Git: Add..."
+			],
+			[
+				"git commit c",
+				"Git: Commit Selected Hunk"
+			],
+			[
+				"git qcom",
+				"Git: Quick Commit (repo, only already added files)"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"http",
+				"HTTP Requester"
+			],
+			[
+				"pa ge",
+				"Set Syntax: Java Server Page (JSP)"
+			],
+			[
+				"Snippet: ",
+				"Snippet: FILES['…']"
+			]
+		],
+		"width": 420.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/usr/local/var/www/api.greatsir.com",
+		"/usr/local/var/www/api.greatsir.com/application",
+		"/usr/local/var/www/api.greatsir.com/application/commpont",
+		"/usr/local/var/www/api.greatsir.com/application/commpont/controller",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/controller",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/model",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/service",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/validate",
+		"/usr/local/var/www/api.greatsir.com/extend",
+		"/usr/local/var/www/api.greatsir.com/extend/anu"
+	],
+	"file_history":
+	[
+		"/usr/local/var/www/api.greatsir.com/application/route.php",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/service/MembAlbumService.php",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/validate/MembFocusValidate.php",
+		"/usr/local/var/www/api.greatsir.com/application/common/model/MembFocus.php",
+		"/usr/local/var/www/api.greatsir.com/application/common/model/MembAlbum.php",
+		"/usr/local/var/www/api.greatsir.com/.gitignore",
+		"/usr/local/var/www/api.greatsir.com/application/common/controller/Api.php",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/model/AlbumImg.php",
+		"/usr/local/var/www/api.greatsir.com/thinkphp/library/think/db/Query.php",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/model/Member.php",
+		"/usr/local/var/www/api.greatsir.com/application/member/validate/Member.php",
+		"/usr/local/var/www/api.greatsir.com/application/article/service/ArticleService.php",
+		"/usr/local/var/www/api.greatsir.com/extend/greatsir/RedisClient.php",
+		"/usr/local/var/www/api.greatsir.com/application/common/service/auth/AuthService.php",
+		"/usr/local/var/www/api.greatsir.com/application/common/controller/Middle.php",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/service/MemberService.php",
+		"/usr/local/var/www/api.greatsir.com/thinkphp/library/think/Request.php",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/controller/Member.php",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/controller/Album.php",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/validate/AlbumValidate.php",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/service/AlbumCateService.php",
+		"/usr/local/var/www/api.greatsir.com/application/common/model/Album.php",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/model/Album.php",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/model/Modeler.php",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/service/ModelerService.php",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/controller/Modeler.php",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/model/Pic.php",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/controller/Rank.php",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/service/AlbumService.php",
+		"/usr/local/var/www/api.greatsir.com/application/common/model/Base.php",
+		"/usr/local/var/www/api.greatsir.com/application/extra/yezhu_noauth.php",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/model/AlbumCate.php",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/controller/AlbumCate.php",
+		"/usr/local/var/www/api.greatsir.com/thinkphp/library/think/cache/driver/Redis.php",
+		"/usr/local/var/www/api.greatsir.com/vendor/topthink/think-queue/src/Queue.php",
+		"/usr/local/var/www/api.greatsir.com/vendor/topthink/think-queue/src/queue/connector/Database.php",
+		"/usr/local/var/www/api.greatsir.com/vendor/illuminate/contracts/Queue/Queue.php",
+		"/usr/local/var/www/api.greatsir.com/application/database.php",
+		"/usr/local/var/www/api.greatsir.com/runtime/log/201711/22.log",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/model/MembFocus.php",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/model/Carouse.php",
+		"/usr/local/var/www/api.greatsir.com/application/common/model/Article.php",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/validate/PicValidate.php",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/controller/MembFocus.php",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/controller/Pic.php",
+		"/usr/local/var/www/api.greatsir.com/application/vgirl/controller/System.php",
+		"/usr/local/var/www/sinoyjlm/application/common/model/GoodsProd.php",
+		"/usr/local/var/www/sinoyjlm/thinkphp/library/traits/model/SoftDelete.php",
+		"/usr/local/var/www/sinoyjlm/thinkphp/library/think/Model.php",
+		"/usr/local/var/www/sinoyjlm/thinkphp/library/think/db/Query.php",
+		"/usr/local/var/www/sinoyjlm/application/commpont/service/PicService.php",
+		"/usr/local/var/www/sinoyjlm/vendor/mongodb/mongodb/docs/includes/apiargs-MongoDBDatabase-method-selectGridFSBucket-option.yaml",
+		"/usr/local/var/www/sinoyjlm/application/common/model/GoodsDetail.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/controller/Goods.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/service/GoodsDetailService.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/model/GoodsDetail.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/validate/GoodsDetailValidate.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/model/Goods.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/service/GoodsService.php",
+		"/usr/local/var/www/sinoyjlm/thinkphp/library/think/db/Connection.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/controller/GoodsDetail.php",
+		"/usr/local/var/www/sinoyjlm/application/shop/validate/ShopPicValidate.php",
+		"/usr/local/var/www/sinoyjlm/application/common/service/BaseService.php",
+		"/usr/local/var/www/sinoyjlm/thinkphp/library/think/Loader.php",
+		"/usr/local/var/www/sinoyjlm/runtime/log/201711/20.log",
+		"/usr/local/var/www/sinoyjlm/application/goods/validate/GoodsValidate.php",
+		"/usr/local/var/www/sinoyjlm/thinkphp/library/think/Request.php",
+		"/usr/local/var/www/sinoyjlm/application/common/model/Goods.php",
+		"/usr/local/var/www/sinoyjlm/application/common/controller/Api.php",
+		"/usr/local/var/www/sinoyjlm/application/shop/model/ShopCate.php",
+		"/usr/local/var/www/sinoyjlm/application/common/model/ShopCate.php",
+		"/usr/local/var/www/sinoyjlm/application/common/model/Base.php",
+		"/usr/local/var/www/sinoyjlm/thinkphp/library/think/Route.php",
+		"/usr/local/var/www/sinoyjlm/thinkphp/library/think/App.php",
+		"/usr/local/var/www/sinoyjlm/runtime/log/201711/16.log",
+		"/usr/local/var/www/sinoyjlm/application/shop/service/ShopPicService.php",
+		"/usr/local/var/www/sinoyjlm/application/shop/controller/ShopPic.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/validate/GoodsCateValidate.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/model/GoodsCate.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/service/GoodsCateService.php",
+		"/usr/local/var/www/sinoyjlm/application/route.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/controller/GoodsCate.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/validate/GoodsAttrValueValidate.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/service/GoodsAttrValueService.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/service/GoodsAttrService.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/controller/GoodsAttrValue.php",
+		"/usr/local/var/www/sinoyjlm/application/shop/model/ShopPic.php",
+		"/usr/local/var/www/sinoyjlm/extend/anu/SingleFactory.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/model/GoodsAttrValue.php",
+		"/usr/local/var/www/sinoyjlm/application/common/model/GoodsAttr.php",
+		"/usr/local/var/www/sinoyjlm/application/shop/model/ShopInfo.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/controller/GoodsAttr.php",
+		"/usr/local/var/www/sinoyjlm/vendor/firebase/php-jwt/src/JWT.php",
+		"/usr/local/var/www/sinoyjlm/application/common/service/auth/AuthService.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/model/GoodsAttr.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/validate/GoodsAttrValidate.php",
+		"/usr/local/var/www/sinoyjlm/application/shop/model/ShopUser.php",
+		"/usr/local/var/www/sinoyjlm/application/shop/service/ShopUserService.php",
+		"/usr/local/var/www/sinoyjlm/application/common/controller/Middle.php",
+		"/usr/local/var/www/sinoyjlm/application/common/model/ShopPic.php",
+		"/usr/local/var/www/sinoyjlm/application/common/model/ShopUser.php",
+		"/usr/local/var/www/sinoyjlm/thinkphp/library/think/Paginator.php",
+		"/usr/local/var/www/sinoyjlm/application/common/model/ShopInfo.php",
+		"/usr/local/var/www/sinoyjlm/thinkphp/library/think/Collection.php",
+		"/usr/local/var/www/sinoyjlm/application/common/model/GoodsAttrValue.php",
+		"/usr/local/var/www/sinoyjlm/application/common/model/GoodsCate.php",
+		"/usr/local/var/www/sinoyjlm/application/common/model/GoodsComment.php",
+		"/usr/local/var/www/sinoyjlm/application/common/model/GoodsPic.php",
+		"/usr/local/var/www/sinoyjlm/application/common/model/ActivityQiangpiao.php",
+		"/usr/local/var/www/sinoyjlm/runtime/log/201711/14.log",
+		"/usr/local/var/www/sinoyjlm/application/shop/validate/ShopUserValidate.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/validate/GoodsCommentValidate.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/service/GoodsCommentService.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/model/GoodsComment.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/validate/GoodsProdValidate.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/controller/GoodsComment.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/controller/GoodsPic.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/model/GoodsPic.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/service/GoodsPicService.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/validate/GoodsPicValidate.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/controller/GoodsProd.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/model/GoodsProd.php",
+		"/usr/local/var/www/sinoyjlm/application/goods/service/GoodsProdService.php",
+		"/usr/local/var/www/sinoyjlm/application/shop/controller/ShopCate.php",
+		"/usr/local/var/www/sinoyjlm/extend/anu/ToLabValChildr.php",
+		"/usr/local/var/www/sinoyjlm/application/shop/controller/ShopUser.php",
+		"/usr/local/var/www/sinoyjlm/extend/anu/BuildFil/newAuto.php",
+		"/usr/local/var/www/sinoyjlm/thinkphp/library/think/Validate.php"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+			"/usr/local/var/www/api.greatsir.com/application"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"missing param authorization in http-header",
+			"MembAlbum",
+			"MembAblum",
+			"model_id",
+			"focus",
+			"sms",
+			"focus_id",
+			"focus",
+			"memb_focus",
+			"model",
+			"focus",
+			"MembFocus",
+			"<<<<<",
+			"MemberService",
+			"getAlbumRand",
+			"id",
+			"redis",
+			"re di s",
+			"album",
+			"getCatelist",
+			"123456"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 13,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "application/vgirl/service/AlbumService.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8337,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								332,
+								332
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "application/vgirl/controller/Album.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5789,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1783,
+								1783
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 531.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "application/vgirl/controller/Rank.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1252,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								961,
+								961
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "application/vgirl/controller/Pic.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2756,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "application/vgirl/controller/Modeler.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3595,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3218,
+								3218
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 208.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "application/vgirl/validate/ModelerValidate.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1623,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1033,
+								1033
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 34,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "application/vgirl/validate/AlbumValidate.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								444,
+								449
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "application/vgirl/validate/MemberValidate.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 35,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "application/vgirl/service/MemberService.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4034,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1020,
+								1020
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "application/vgirl/model/Modeler.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2961,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2959,
+								2959
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "application/common/model/Modeler.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 182,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								69
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "application/extra/yezhu_noauth.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1293,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1293,
+								1293
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "application/vgirl/controller/Member.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3219,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1386,
+								1386
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "application/vgirl/service/ModelerService.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3610,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1363,
+								1363
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 223.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "application/commpont/controller/Pic.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1734,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1104,
+								1104
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "application/common/controller/Middle.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2563,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1739,
+								1739
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "thinkphp/library/think/db/Query.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 83292,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41113,
+								41118
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 20586.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 36,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "application/vgirl/model/Album.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2440,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1401,
+								1401
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "application/vgirl/controller/System.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								586,
+								600
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "application/vgirl/service/SystemService.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1616,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								898,
+								910
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "application/vgirl/model/Carouse.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 225,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								143,
+								143
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "application/vgirl/model/AlbumCate.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 996,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								295,
+								295
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 26,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "application/vgirl/model/Member.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								535,
+								535
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 37,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "application/vgirl/model/MembFocus.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1464,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								859,
+								859
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 27,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "application/common/model/MembFocus.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 189,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								69
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 29,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "application/vgirl/validate/MembFocusValidate.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 543,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								543,
+								543
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 30,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "application/vgirl/model/MembAlbum.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1459,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1360,
+								1369
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "application/vgirl/service/MembFocusService.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1800,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1216,
+								1536
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "extend/anu/SingleFactory.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 828,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								413,
+								413
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 33,
+					"type": "text"
+				},
+				{
+					"buffer": 29,
+					"file": "application/vgirl/validate/MembAlbumValidate.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 543,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								543,
+								543
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 28,
+					"type": "text"
+				},
+				{
+					"buffer": 30,
+					"file": "application/vgirl/controller/MembFocus.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2759,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								487,
+								487
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 31,
+					"file": "application/vgirl/controller/MembAlbum.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2743,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2165,
+								2165
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 32,
+					"file": "application/vgirl/service/MembAlbumService.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1796,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1320,
+								1320
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 33,
+					"file": "application/route.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6895,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2577,
+								2577
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 538.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 34,
+					"file": "application/vgirl/controller/AlbumCate.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3538,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2157,
+								2157
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 35,
+					"file": "application/member/controller/Member.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 848,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 32,
+					"type": "text"
+				},
+				{
+					"buffer": 36,
+					"file": "application/member/service/MemberService.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2984,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1207,
+								1207
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 31,
+					"type": "text"
+				},
+				{
+					"buffer": 37,
+					"file": "application/vgirl/model/Pic.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1445,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1220,
+								1220
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 1536.0
+	},
+	"pinned_build_system": "",
+	"project": "api.greatsir.com.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"yezhu",
+				"application/extra/yezhu_noauth.php"
+			],
+			[
+				"noaut",
+				"application/extra/yezhu_noauth.php"
+			],
+			[
+				"noau",
+				"application/extra/yezhu_noauth.php"
+			],
+			[
+				"noauth",
+				"application/extra/yezhu_noauth.php"
+			],
+			[
+				"",
+				"application/extra/yezhu_noauth.php"
+			],
+			[
+				"midd",
+				"application/common/controller/Middle.php"
+			],
+			[
+				"gitlog",
+				"vendor/mongodb/mongodb/docs/includes/apiargs-MongoDBDatabase-method-selectGridFSBucket-option.yaml"
+			],
+			[
+				"thinkphp/library/think/request.php",
+				"thinkphp/library/think/Request.php"
+			],
+			[
+				"shoppic.php",
+				"application/shop/model/ShopPic.php"
+			],
+			[
+				"middle",
+				"sinoyjlm/application/common/controller/Middle.php"
+			],
+			[
+				"common/service/auth/authservice.php",
+				"sinoyjlm/application/common/service/auth/AuthService.php"
+			],
+			[
+				"thinkphp/library/think/loader.php",
+				"thinkphp/library/think/Loader.php"
+			],
+			[
+				"authservice.php",
+				"application/common/service/auth/AuthService.php"
+			],
+			[
+				"shopuserservice.php",
+				"application/shop/service/ShopUserService.php"
+			],
+			[
+				"shopuser.php",
+				"application/shop/controller/ShopUser.php"
+			],
+			[
+				"acco",
+				"application/common/service/auth/account.php"
+			],
+			[
+				"shopcate.php",
+				"application/shop/model/ShopCate.php"
+			],
+			[
+				"shopcateservice.php",
+				"application/shop/service/ShopCateService.php"
+			],
+			[
+				"shop/model/shopcate.php",
+				"application/shop/model/ShopCate.php"
+			],
+			[
+				"forum/controller/topic.php",
+				"application/forum/controller/Topic.php"
+			],
+			[
+				"provin",
+				"application/common/model/DataProvince.php"
+			],
+			[
+				"softdelete",
+				"thinkphp/library/traits/model/SoftDelete.php"
+			],
+			[
+				"gitpush",
+				"vendor/phpunit/phpunit/tests/Regression/Trac/783/ParentSuite.php"
+			],
+			[
+				"top",
+				"application/forum/service/TopicService.php"
+			],
+			[
+				"topicservice",
+				"application/forum/service/TopicService.php"
+			],
+			[
+				"manger",
+				"application/shop/service/MangerScopeService.php"
+			],
+			[
+				"app.php",
+				"thinkphp/library/think/App.php"
+			],
+			[
+				"picse",
+				"application/commpont/service/PicService.php"
+			],
+			[
+				"application/config.php",
+				"application/config.php"
+			],
+			[
+				"response.php",
+				"thinkphp/library/think/Response.php"
+			],
+			[
+				"auth",
+				"application/common/service/auth/AuthService.php"
+			],
+			[
+				"authse",
+				"application/common/service/auth/AuthService.php"
+			],
+			[
+				"shopin",
+				"application/shop/service/ShopInfoService.php"
+			],
+			[
+				"au",
+				"vendor/autoload.php"
+			],
+			[
+				"smsse",
+				"application/commpont/service/SmsService.php"
+			],
+			[
+				"shopse",
+				"application/shop/service/ShopService.php"
+			],
+			[
+				"shop",
+				"application/shop/model/Shop.php"
+			],
+			[
+				"shops",
+				"application/shop/service/ShopService.php"
+			],
+			[
+				"redi",
+				"extend/greatsir/RedisClient.php"
+			],
+			[
+				"h",
+				"thinkphp/helper.php"
+			],
+			[
+				"shopser",
+				"application/shop/service/ShopService.php"
+			],
+			[
+				"sms",
+				"application/commpont/service/SmsService.php"
+			],
+			[
+				"no",
+				"application/common/model/Notice.php"
+			],
+			[
+				"man",
+				"application/shop/controller/MangerScope.php"
+			],
+			[
+				"git",
+				"vendor/bshaffer/oauth2-server-php/test/OAuth2/GrantType/ImplicitTest.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 851.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/usr/local/var/www/yjlmv1/application/admin/validate/vote-server.sublime-workspace"
+			]
+		],
+		"width": 1440.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 647.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 277.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
