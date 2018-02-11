@@ -12,6 +12,8 @@ use app\users\service\UserService;
 use greatsir\RedisClient;
 use greatsir\Snowflake;
 use think\Db;
+use think\Request;
+
 
 class ChallengeService extends BaseService
 {
@@ -28,8 +30,18 @@ class ChallengeService extends BaseService
             ]);
             return false;
         }
+        //校验redis里面是否有改请求
+        $redis = RedisClient::getHandle();
+        if($redis->in_set('request',$data['_sign'])){
+            self::setError([
+                'status_code'=>4113,
+                'message'    =>'重复请求',
+            ]);
+            return false;
+        }
+        $redis->add_set('request',$data['_sign']);
         //校验成功
-        if($userInfo = UserService::getUserInfo($uid)){
+        if($userInfo = UserService::read($uid)){
             //用户信息获取
             if($userInfo['reset_challenges']==0){
                 self::setError([
@@ -215,4 +227,25 @@ class ChallengeService extends BaseService
         }
         return $check_res;
     }
+
+    /**
+     * 统计总挑战次数
+     */
+    public static function challengeTotal()
+    {
+        $total = Db::name('challenge_log')->count();
+
+        if (is_numeric($total)) {
+            return [
+                'total'=>$total
+            ];
+        }else{
+            self::setError([
+                'status_code' => 404,
+                'message'     => '请求资源不存在'
+            ]);
+        }
+
+    }
+
 }

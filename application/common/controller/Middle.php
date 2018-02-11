@@ -19,7 +19,6 @@ class Middle extends Controller
     public $auth;
     public function __construct()
     {
-
        $request = Request::instance();
        $header  = $request->header();
        if(!isset($header['identity']))
@@ -34,7 +33,6 @@ class Middle extends Controller
        }else{
             //进行是否需要登录验证
            $identity = $header['identity'];
-
            $http_url = $request->module().'/'.$request->controller().'/'.$request->action();
            if($identity=='yezhu'){
             // var_dump($noauth);die;
@@ -80,7 +78,7 @@ class Middle extends Controller
                     'status_code'=> 4003,
                     'message'    => 'missing param authorization in http-header'
                 ]
-            ],'json')->send();exit();
+            ],'json')->send();
         }else{
             //验证token
             $token   = $header['authorization'];

@@ -13,11 +13,12 @@ class Address extends Validate
 {
     protected $rule = [
         'user_id' =>'require',
-        'tel'   =>'require',
-
-    ];
-    protected $message= [
-        'user_id.require' => '名称必须',
-        'tel.require'   => '电话必须',
+        'contacts' =>'require',
+        'mobile' =>'require',
+        'province' =>'require',
+        'city' =>'require',
+        'country' =>'require',
+        'address' =>'require',
+        'prizes' =>'require|number'
     ];
 }

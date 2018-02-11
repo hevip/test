@@ -9,7 +9,8 @@ namespace app\users\controller;
 
 
 use app\common\controller\Api;
-use app\user\service\UserService;
+use app\users\service\UserService;
+use think\Request;
 
 class User extends Api
 {
@@ -18,8 +19,19 @@ class User extends Api
      */
     public function getUserInfo()
     {
+        $data = Request::instance()->post();
         $uid = $this->auth['user_id'] ?? '';
-        $userInfo = UserService::getUserInfo($uid);
+        $userInfo = UserService::getUserInfo($data['userInfo'],$uid);
+        if($userInfo){
+            return $this->responseSuccess($userInfo);
+        }else{
+            return $this->responseError(UserService::getError());
+        }
+    }
+    public function getInfoBytoken()
+    {
+        $uid = $this->auth['user_id']??'';
+        $userInfo = UserService::read($uid);
         if($userInfo){
             return $this->responseSuccess($userInfo);
         }else{

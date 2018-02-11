@@ -7,7 +7,7 @@
  */
 namespace app\challenge\controller;
 
-
+use think\Loader;
 use app\challenge\service\ChallengeService;
 use app\common\controller\Api;
 use think\Request;
@@ -22,6 +22,21 @@ class Challenge extends Api
         $data = Request::instance()->post();
         $uid  = $this->auth['user_id']??'';
         $result = ChallengeService::Settlement($data,$uid);//结算
+        if($result){
+            return $this->responseSuccess($result);
+        }else{
+            return $this->responseError(ChallengeService::getError());
+        }
+    }
+
+    /**
+     *  挑战总次数
+     **/
+    public function challengeTotal()
+    {
+
+        $result = ChallengeService::challengeTotal();//结算
+
         if($result){
             return $this->responseSuccess($result);
         }else{

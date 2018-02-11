@@ -49,12 +49,10 @@ class Loader
         }
 
         if ($file = self::findFile($class)) {
-
             // Win环境严格区分大小写
             if (IS_WIN && pathinfo($file, PATHINFO_FILENAME) != pathinfo(realpath($file), PATHINFO_FILENAME)) {
                 return false;
             }
-
             __include_file($file);
             return true;
         }

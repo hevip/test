@@ -37,13 +37,27 @@ return [
         'member-focus' => 'vgirl/MembFocus',
         'member-album' => 'vgirl/MembAlbum',
         'pic' => 'vgirl/Pic',
+        'goods'=>'goods/Goods'
 
     ],
     
     /**
      * 普通路由
      */
+    'address/goods'=>'address/address/goods',
+    'address/address'=>'address/address/address',
+    'address/index'=>'address/address/index',
+    'message/message'=>'message/message/message',
     'userlist/index'=>'userlist/userlist/index',
+    'goods/list'=>'goods/goods/index',
+
+    'blank/index'=>'blank/blank/index',
+    'blank/add'=>'blank/blank/add',
+    'card/add'=>'blank/card/add',
+    'card/index'=>'blank/card/index',
+
+
+    'user/info'=>'rank/Rank/user_msg',
     'advertisement/add'=>'advertisement/Advertisement/add',
     'advertisement/del'=>'advertisement/Advertisement/del',
     'advertisement/update'=>'advertisement/Advertisement/update',
@@ -161,4 +175,25 @@ return [
     /**游戏结算**/
     'challenge/deal'=>'challenge/Challenge/deal',//游戏结算接口
     'share/callback'=>'share/Share/shareCallback',//分享到群接口
+    'challenge/total' => 'challenge/Challenge/challengeTotal',
+    'pay/create' => 'pay/Pay/pay_create',
+    'pay/success' => 'pay/PayBack/pay_success',
+    'rule/description' => 'rule/Rule/ruleDescription',
+    'admin/add_rule' => 'admin/Rule/addRule',
+    'admin/del_rule'=>'admin/Rule/delRule',
+    'user/info'=>'rank/Rank/user_msg',
+    'goods/create'=>'goods/Goods/create',
+    'goods/:id'=>['goods/Goods/update',['method'=>'post'],['id'=>'\d+']],//商品更新
+    'open/wechat/getopenid'=>'open/Wechat/getOpenid',
+    'users/upinfo'=>'users/User/getUserInfo',
+    'share/getopengid'=>'share/Share/getOpenGid',
+    'goods/del'=>'goods/Goods/delete',
+    'goods/getAll'=>'goods/Goods/getAll',
+    'admin/payList' => 'admin/Pay/payOderList',
+    'getVersion'=>'common/Version/getVersion',
+    /*微信杜总*/
+    'addlink1'=>'blank/Link/addlink1',
+    'addlink2'=>'blank/Link/addlink2',
+    'getlink1'=>'blank/Blank/getLink1',
+    'getlink2'=>'blank/Blank/getLink2'
 ];

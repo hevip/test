@@ -10,8 +10,7 @@ use think\Response;
 use think\Request;
 
 class Pic extends \think\Controller
-{    
-
+{
     /**
      * 图片上传接口
      */

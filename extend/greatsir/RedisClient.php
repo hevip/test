@@ -9,6 +9,8 @@
 namespace greatsir;
 
 
+use think\Exception;
+
 class RedisClient
 {
     private $host = '127.0.0.1';//sever地址
@@ -19,11 +21,14 @@ class RedisClient
     public $db;
     private function __construct($db)
     {
+        try{
         $this->redis  = new \Redis;
         $this->redis->connect($this->host,$this->port);
-        $this->redis->auth($this->pass);
+        //$this->redis->auth($this->pass);
         $this->redis->select($db);
-        $this->db = $db;
+        $this->db = $db;}catch (\Exception $e){
+            throw new Exception($e->getMessage(),$e->getCode());
+        }
         /*if($this->redis->connect($this->host,$this->port)){
 
         }else{
@@ -43,7 +48,6 @@ class RedisClient
         }
         return self::$handle;
     }
-    
     /**
      *　设置key值
      * @access public
@@ -54,12 +58,17 @@ class RedisClient
      */
     public function setKey($name,$value,$expire=0)
     {
-        if($expire&& is_int($expire)){
-            $res = $this->redis->setex($name,$expire,$value);
-        }else{
-            $res = $this->redis->set($name,$value);
+        try{
+            if($expire&& is_int($expire)){
+                $res = $this->redis->setex($name,$expire,$value);
+            }else{
+                $res = $this->redis->set($name,$value);
+            }
+            return $res;
+        }catch (Exceptionb $e){
+            throw new Exception($e->getMessage(),$e->getCode());
         }
-        return $res;
+
     }
     public function keyExists($key)
     {
@@ -121,7 +130,6 @@ class RedisClient
         }catch (\Exception $e){
             throw new \think\Exception($e->getMessage(), $e->getCode());
         }
-
     }
     /**
      * 删除集合中的元素

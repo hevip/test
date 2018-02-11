@@ -16,7 +16,7 @@ class RankService extends BaseService
     public static function prizes_rank(){
         $prizes_rank = Cache::get('prizes_rank');
         if(empty($prizes_rank)){
-            $list = Db::name('users')->where('is_del',0)->field('user_name,user_icon,user_prizes')->order('user_prizes desc')->limit(100)->select();
+            $list = Db::name('users')->where('is_del',0)->field('user_name,user_icon,user_prizes')->order('user_prizes desc')->limit(5)->select();
             if(!$list){
                 self::setError([
                     'status_code'=>509,
@@ -33,28 +33,33 @@ class RankService extends BaseService
 
 
     //挑战次数排行榜
-    public static function challenges_rank(){
-        $challenges_rank = Cache::get('challenges_rank');
-        if(empty($challenges_rank)){
-            $list =  Db::name('users')->where('is_del',0)->field('user_name,user_icon,max_challenges')->order('user_challenges desc')->limit(100)->select();
-            if(!$list){
-                self::setError([
-                    'status_code'=>509,
-                    'message'=>'没有排行数据',
-                ]);
-                return false;
-            }
-            Cache::set('challenges_rank',$list,3600*24);
-            return Cache::get('challenges_rank');
+    public static function challenges_rank($page){
+        if(empty($page)|| $page < 1){
+            $pages = 50;
         }else{
-            return $challenges_rank;
+            if($page >9 ){
+                $pages = 50;
+            }else{
+                $pages = 10+$page*5;
+            }
         }
+        $list =  Db::name('users')->where('is_del',0)->field(
+            'user_name,user_icon,user_challenges')->order('user_challenges desc')->limit
+        ($pages)->select();
+        if(!$list){
+            self::setError([
+                'status_code'=>509,
+                'message'=>'没有排行数据',
+            ]);
+            return false;
+        }
+        return $list;
     }
 
 
     //群内排行榜
     public static function group_rank($group_openid){
-        $map = ['group_openid' =>$group_openid];
+        $map = ['opengid' =>$group_openid];
         $user_id = Db::name('group')->where($map)->select();
         if(!$user_id){
             self::setError([
@@ -64,8 +69,11 @@ class RankService extends BaseService
             return false;
         }
         foreach($user_id as $k=>$v){
-             $list[] =  Db::name('users')->field('user_name,user_icon,max_challenges')
-                 ->order('max_challenges desc')->where(array('user_id'=>$v['user_id'],'is_del'=>0))->find();
+            $res = Db::name('users')->field('user_name,user_icon,max_number')
+                ->order('max_number desc')->where(array('user_id'=>$v['user_id'],'is_del'=>0))->find();
+            if(!empty($res)){
+                $list[] = $res;
+            }
         }
         if(empty($list)){
             self::setError([
@@ -78,4 +86,23 @@ class RankService extends BaseService
         }
 
     }
+
+
+    //我的信息
+    public static function user_msg($open_id){
+        $user_msg = Db::name('users')->field('user_name,user_icon,user_prizes,user_challenges,reset_challenges,max_number')
+            ->where(array('user_openid'=>$open_id,'is_del'=>0))->find();
+        if(empty($user_msg)){
+            self::setError([
+                'status_code' =>4055,
+                'message' =>'请输入正确的用户openid',
+            ]);
+            return false;
+        }else{
+            return $user_msg;
+        }
+
+
+    }
+
 }

@@ -9,7 +9,8 @@ use think\Db;
 class Address extends Api
 {
     //奖品领取
-    public function goods(){
+    public function goods()
+    {
         $user_id  = $this->auth['user_id']??'';
         $result = AddressService::receiveGoods($user_id);
         if($result){
@@ -18,11 +19,13 @@ class Address extends Api
             return $this->responseError(AddressService::getError());
         }
     }
-
     //添加收货地址
     public function address()
     {
+
         $data = Request::instance()->post();
+        $uid = $this->auth['user_id']??'';
+        $data['user_id']=$uid;
         $result = AddressService::address($data);
         if($result){
             return $this->responseSuccess($result);
@@ -30,7 +33,13 @@ class Address extends Api
             return $this->responseError(AddressService::getError());
         }
     }
-
-
-
+    public function index()
+    {
+        $result = AddressService::index();
+        if($result){
+            return $this->responseSuccess($result);
+        }else{
+            return $this->responseError(AddressService::getError());
+        }
+    }
 }

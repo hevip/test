@@ -256,6 +256,7 @@ class AuthService
                 $map['is_del']=0;
                 $model = new \app\users\model\User();
                 $res   = $model->field('user_id,user_name,user_icon')->where($map)->find();
+
                 if($res){
                     $requesterInfo = $res->getData();
                     $requesterInfo['identity'] = $identity;

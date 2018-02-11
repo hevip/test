@@ -10,12 +10,14 @@ namespace app\userlist\controller;
 
 use app\common\controller\Api;
 use app\userlist\service\UserlistService;
+use think\Request;
 
 class Userlist extends Api
 {
-    public function index($page=1)
+    public function index()
     {
-        $res = UserlistService::user($page);
+        $user = Request::instance()->post();
+        $res = UserlistService::user($user);
         if($res){
             return $this->responseSuccess($res);
         }else{

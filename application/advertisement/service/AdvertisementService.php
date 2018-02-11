@@ -13,10 +13,17 @@ use app\common\service\BaseService;
 class AdvertisementService extends BaseService
 {
     //广告列表
-    public static function lists(){
+    public static function lists($search){
+        if(empty($search)){
+            $list = Db::name('advertisement')->field('title,link_url,photo,id,create_time,end_time')->
+            where('is_del',0)->where('end_time','>=',date('Y-m-d',time()))->order('id desc')->select();
 
-        $list = Db::name('advertisement')->field('title,link_url,photo')->
-        where('is_del',0)->where('end_time','>=',date('Y-m-d',time()))->order('orderby desc')->select();
+        }else{
+            $list = Db::name('advertisement')->field('title,link_url,photo,id,create_time,end_time')->
+            where('is_del',0)->where('end_time','>=',date('Y-m-d',time()))
+                ->where('title','like','%'.$search.'%')->order('id desc')->select();
+
+        }
         if(!$list){
             self::setError([
                 'status_code'=>509,
@@ -142,7 +149,6 @@ class AdvertisementService extends BaseService
             $new_time = date('Y-m-d',$new_time);
         }elseif (strtotime($data['end_time']) <= time()){
             $new_time = date('Y-m-d',time() + $add_time);
-
         };
         if(Db::name('advertisement')->where(array('id'=>$advertisement_id,'is_del'=>0))->update(array('end_time'=>$new_time))){
             return true;

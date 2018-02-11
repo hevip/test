@@ -29,4 +29,16 @@ class Share extends Api
         }
     }
 
+    public function getOpenGid()
+    {
+        $data = Request::instance()->post();
+        $uid = $this->auth['user_id']??'';
+        $result = ShareService::getOpenGid($data['shareInfo'],$uid);
+        if($result){
+            return $this->responseSuccess($result);
+        }else{
+            return $this->responseError(ShareService::getError());
+        }
+    }
+
 }

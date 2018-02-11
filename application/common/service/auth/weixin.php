@@ -17,7 +17,9 @@ use think\Response;
 class weixin implements authInterface{
     public function check($identity)
     {
-        $data = Request::instance()->only(['openid','unionid','nickname','user_icon'],'post');
+        //破解拿到openid以及unionid
+        $data = Request::instance()->post();
+        //$data = Request::instance()->only(['openid','unionid','nickname','user_icon'],'post');
         // TODO: Implement check() method. 获取请求身份
         if($identity=='yezhu'){
             $res = UserService::checkWx($data);

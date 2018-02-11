@@ -274,5 +274,7 @@ Jz0WK1I4Ep71yX90ONItMF01Xhx/yeVN+yZuaCsgjyMnM9wV+4mb/jjvcOMTAkEA
 kJERpCvN0sKBxW6H6zitJ2xs2pap4tToiDubqpCj+l8vCL5REyfa0+WrjzPhPOjm
 WamL76Cg+/H32m3XQKHzbQJARM1gu3nHL8RcuiLj36UMO7kJMzwF23yBAldA7dot
 z63kAcF4xNmXNNkxDzPTacocahfnGB4DjkOFITUht6AG3Q==
------END RSA PRIVATE KEY-----'
+-----END RSA PRIVATE KEY-----',
+    'wechatapp_id'=>'wxccf058a8c4b07245',
+    'wechatapp_secret'=>'b18fed2b93e4dcdd6bc8ed3e81a81b9d'
 ];

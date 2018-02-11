@@ -10,6 +10,15 @@ use app\common\controller\Api;
 use app\rank\service\RankService;
 class Rank extends Api
 {
+
+    public function user_msg($open_id){
+        $data = RankService::user_msg($open_id);
+        if($data){
+            return $this->responseSuccess($data);
+        }else{
+            return $this->responseError(RankService::getError());
+        }
+    }
     public function prizes_rank(){
         $data = RankService::prizes_rank();
         if($data){
@@ -20,7 +29,8 @@ class Rank extends Api
     }
 
     public function challenges_rank(){
-       $data = RankService::challenges_rank();
+        $page = input('page');
+       $data = RankService::challenges_rank($page);
        if(!empty($data)){
            return $this->responseSuccess($data);
        }else{

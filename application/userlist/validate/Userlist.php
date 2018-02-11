@@ -6,19 +6,18 @@
  * Time: 下午3:21
  */
 
-namespace app\message\validate;
+namespace app\Userlist\validate;
 
 use think\Validate;
-class Message extends Validate
+class Userlist extends Validate
 {
     protected $rule = [
-
-        'express_name' =>'require',
-        'express_no'   =>'require'
-
+        'user_name' =>'chsDash',
+        'page' =>'require|number'
     ];
     protected $message= [
-        'rexpress_name.require' => '物流公司必须',
-        'express_no.require'  =>'运单号必须',
+        'user_name.chsDash' => '搜索名称不能包含特殊字符',
+
     ];
+
 }

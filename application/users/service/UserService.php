@@ -10,7 +10,10 @@ namespace app\users\service;
 
 use app\common\service\BaseService;
 use app\users\model\User;
+use greatsir\RedisClient;
 use greatsir\Snowflake;
+use greatsir\wechat\WXBizDataCrypt;
+use function GuzzleHttp\Psr7\str;
 use think\Db;
 use Firebase\JWT\JWT;
 
@@ -19,11 +22,46 @@ class UserService extends BaseService
     /*
      * 获取用户信息
      */
-    public static function getUserInfo($uid)
+    public static function getUserInfo($data,$uid)
     {
-        //校验user
         $userInfo = self::read($uid);
-        return $userInfo;
+        if(!$userInfo){
+            return false;
+        }
+        $openid = $userInfo['user_openid'];
+        try{
+            //校验用户信息
+            $redis = RedisClient::getHandle();
+            $session_key = $redis->getKey('openid:'.$openid);
+            $appid = config('wechatapp_id');
+            //解密数据，以及验证签名
+            $pc = new WXBizDataCrypt($appid,$session_key);
+            $errCode = $pc->decryptData($data['encryptedData'],$data['iv'],$newData);
+            //dump($errCode);die;
+            if($errCode==0){
+                //解密成功
+                //更新用户信息
+                $newData = json_decode($newData);
+                $upData['user_name'] = $newData->nickName??$uid;
+                $upData['user_icon'] = $newData->avatarUrl??'';
+                $upData['user_unionid'] = $newData->unionId??'';
+                $res = Db::name('users')->where(['user_id'=>$uid])->update($upData);
+                if($res||$res==0){
+                    $userInfo = self::read($uid);
+                    return $userInfo;
+                }
+            }else{
+                self::setError([
+                    'status_code'=>$errCode,
+                    'message'    =>'数据校验失败'
+                ]);
+                return false;
+            }
+        }catch (\Exception $e){
+            throw new \think\Exception($e->getMessage(),$e->getCode());
+        }
+
+
     }
 
     public static function read($uid)
@@ -63,6 +101,10 @@ class UserService extends BaseService
             ]);
             return false;
         }
+        $appid = config('wechatapp_id');
+        //解密数据，以及验证签名
+        $pc = new WXBizDataCrypt($appid,'session_key');
+
         $user = new User();
         $where['user_openid'] = $data['openid'];
         $where['user_unionid'] = $data['unionid'];
@@ -91,9 +133,9 @@ class UserService extends BaseService
                     $payload['requesterID'] = $user_info['user_id'];
                     $payload['identity']    = 'yezhu';
                     $payload['exp']         = time()+604800;
-                    $result['token']        = JWT::encode($payload,config('jwt-key'));
-                    $result['identity']     = 'yezhu';
-                    return $result;
+                    $user_info['token']        = JWT::encode($payload,config('jwt-key'));
+                    $user_info['identity']     = 'yezhu';
+                    return $user_info;
                 }
             }else{
                 self::setError([

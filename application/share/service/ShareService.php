@@ -10,7 +10,9 @@ namespace app\share\service;
 
 use app\common\service\BaseService;
 use app\share\model\ShareLog;
+use app\users\service\UserService;
 use greatsir\RedisClient;
+use greatsir\wechat\WXBizDataCrypt;
 use think\Db;
 
 class ShareService extends BaseService
@@ -37,7 +39,10 @@ class ShareService extends BaseService
             'user_id' => $uid,
             'share_time' => time()
         ]);
-        if($res){
+        $groupData['user_id'] =$uid;
+        $groupData['opengid'] = $data['openGId'];
+        $res2 = Db::name('group')->insert($groupData);
+        if($res&&$res2){
             try{
                 //每天分享至不同的群则加一次挑战机会
                 //判断今天是否分享到该群
@@ -87,6 +92,37 @@ class ShareService extends BaseService
             return false;
         }
 
+    }
+
+    public static function getOpenGid($data,$uid)
+    {
+        try{
+            $appid = config('wechatapp_id');
+            $userInfo = UserService::read($uid);
+            if(!$userInfo){
+                self::setError(UserService::getError());
+                return false;
+            }
+            $openid = $userInfo['user_openid'];
+            $redis = RedisClient::getHandle();
+            $session_key = $redis->getKey('openid:'.$openid);
+            //
+            $pc = new WXBizDataCrypt($appid,$session_key);
+            $errcode = $pc->decryptData($data['encryptedData'],$data['iv'],$newData);
+            if($errcode==0){
+                //解密成功
+                $newData = json_decode($newData);
+                return ['opengid'=>$newData->openGId];
+            }else{
+                self::setError([
+                    'status_code'=>$errcode,
+                    'message'    =>'数据校验失败'
+                ]);
+                return false;
+            }
+        }catch (\Exception $e){
+            throw new \think\Exception($e->getMessage(),$e->getCode());
+        }
     }
 
 }

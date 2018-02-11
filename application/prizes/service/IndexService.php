@@ -11,7 +11,7 @@ use app\common\service\BaseService;
 use think\Db;
 class IndexService extends BaseService
 {
-    public static function prizes_list(){
+    public static function prizes_list($search){
         if(Db::name('prizes')->count() < 1){
             self::setError([
                 'status_code'=>509,
@@ -19,7 +19,12 @@ class IndexService extends BaseService
             ]);
             return false;
         }
-        $list = Db::name('prizes')->where('is_del',0)->select();
+        $map['is_del'] = 0;
+        if(!empty($search)){
+            $list = Db::name('prizes')->where('is_del',0)->where('prize_title','like','%'.$search.'%')->select();
+        }else{
+            $list = Db::name('prizes')->where('is_del',0)->select();
+        }
         if(!$list){
             self::setError([
                 'status_code'=>509,

@@ -12,8 +12,11 @@ use app\prizes\service\IndexService;
 
 class Index extends Api
 {
+
+    //奖品列表
     public function index(){
-        $list = IndexService::prizes_list();
+        $search = input ('search');
+        $list = IndexService::prizes_list($search);
         if($list){
             return $this->responseSuccess($list);
         }else{

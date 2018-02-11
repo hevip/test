@@ -14,7 +14,8 @@ class Advertisement extends Api
 
     //广告列表
     public function index(){
-        $list = AdvertisementService::lists();
+        $search = input('search');
+        $list = AdvertisementService::lists($search);
         if($list){
             return $this->responseSuccess($list);
         }else{
