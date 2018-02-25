@@ -60,29 +60,16 @@ class RankService extends BaseService
     //群内排行榜
     public static function group_rank($group_openid){
         $map = ['opengid' =>$group_openid];
-        $user_id = Db::name('group')->where($map)->select();
-        if(!$user_id){
+        $user_data = Db::name('group')->alias('g')->Distinct(true)->join('users u','g.user_id =u.user_id')->order('max_number desc')
+            ->field('u.user_name,user_icon,max_number')->where($map)->select();
+        if(!$user_data){
             self::setError([
                 'status_code' =>4055,
                 'message' =>'请输入正确的群openid',
             ]);
             return false;
-        }
-        foreach($user_id as $k=>$v){
-            $res = Db::name('users')->field('user_name,user_icon,max_number')
-                ->order('max_number desc')->where(array('user_id'=>$v['user_id'],'is_del'=>0))->find();
-            if(!empty($res)){
-                $list[] = $res;
-            }
-        }
-        if(empty($list)){
-            self::setError([
-                'status_code' =>509,
-                'message' =>'排名数据错误',
-            ]);
-            return false;
         }else{
-            return $list;
+            return $user_data;
         }
 
     }
@@ -103,6 +90,46 @@ class RankService extends BaseService
         }
 
 
+    }
+
+    public static function update($type,$user_openid,$update_num){
+        $map = [
+            'user_openid'=>$user_openid,
+            'is_del' =>0,
+        ];
+        $user = Db::name('users')->where($map)->find();
+        if(!$user){
+            self::setError([
+                'status_code' =>4055,
+                'message' =>'请输入正确用户openid',
+            ]);
+            return false;
+
+        }
+        if($type == 1){
+            $data['max_number'] = $update_num;
+        }elseif ($type == 2){
+            $data['user_prizes'] = $update_num;
+        }elseif($type == 3) {
+            $data['user_challenges'] = $update_num;
+        }else{
+            self::setError([
+                'status_code' =>4055,
+                'message' =>'请填写您要修改的记录',
+            ]);
+            return false;
+        }
+
+        $update = Db::name('users')->where($map)->update($data);
+        if($update){
+            return true;
+        }else{
+            self::setError([
+                'status_code' =>500,
+                'message' =>'服务器忙，请稍后再试',
+            ]);
+            return false;
+        }
     }
 
 }

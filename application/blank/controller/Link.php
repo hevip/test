@@ -47,7 +47,7 @@ class Link extends Api
     {
         $data = Request::instance()->post();
         if(isset($data['id'])){
-            $res = Db::name('link2')->where(['id'=>$data['id']])->fetchSql(true)->update($data);
+            $res = Db::name('link2')->where(['id'=>$data['id']])->update($data);
         }else{
             $res = Db::name('link2')->insert($data);
         }

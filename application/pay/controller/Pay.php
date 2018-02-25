@@ -9,7 +9,7 @@ namespace app\pay\controller;
 
 use think\Request;
 use app\common\controller\Api;
-use app\pay\service\ProblemService;
+use app\pay\service\PayService;
 
 class Pay extends Api
 {
@@ -18,9 +18,10 @@ class Pay extends Api
     **/
     public function pay_create()
     {
+
         $uid = $this->auth['user_id'] ?? '';
         $data = Request::instance()->post();
-        $list = ProblemService::pay_creat($uid,$data);
+        $list = PayService::pay_creat($uid,$data);
 
         if($list){
             return $this->responseSuccess($list);

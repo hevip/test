@@ -46,4 +46,14 @@ class Rank extends Api
             return $this->responseError(RankService::getError());
         }
     }
+
+    public function update($type,$user_openid,$update_num){
+        $data = RankService::update($type,$user_openid,$update_num);
+        if($data){
+            return $this->responseSuccess($data);
+        }else{
+            return $this->responseError(RankService::getError());
+        }
+    }
+
 }

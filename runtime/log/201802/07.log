@@ -1,0 +1,1739 @@
+---------------------------------------------------------------
+[ 2018-02-07T21:04:08+08:00 ] 172.17.132.116 171.210.62.40 GET /rule/description
+[ info ] api.cfoeu.cn/rule/description [运行时间：0.005123s][吞吐率：195.19req/s] [内存消耗：1,088.91kb] [文件加载：74]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'rule',
+    1 => 'Rule',
+    2 => 'ruleDescription',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6Ijc0NTc3ODk2Njc3NzA4MzAzIiwiaWRlbnRpdHkiOiJ5ZXpodSIsImV4cCI6MTUxODYxMzQ0Mn0.wl5A66uROYO480LCOQ4PZ0nC5viHtGzMe02rDQj1_yE',
+  'identity' => 'yezhu',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\rule\controller\Rule->ruleDescription[ /data/wwwroot/weiju01/application/rule/controller/Rule.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000253s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_rule` [ RunTime:0.000401s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:04:08+08:00 ] 172.17.132.116 171.210.62.40 POST /open/wechat/getopenid
+[ info ] api.cfoeu.cn/open/wechat/getopenid [运行时间：0.187425s][吞吐率：5.34req/s] [内存消耗：1,181.46kb] [文件加载：102]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'open',
+    1 => 'Wechat',
+    2 => 'getOpenid',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '43',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+)
+[ info ] [ PARAM ] array (
+  'code' => '011ktES708JR4H1GdLS70MWRS70ktESN',
+)
+[ info ] [ RUN ] app\open\controller\Wechat->getOpenid[ /data/wwwroot/weiju01/application/open/controller/Wechat.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000295s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000497s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:04:09+08:00 ] 172.17.132.116 171.210.62.40 POST /users/upinfo
+[ info ] api.cfoeu.cn/users/upinfo [运行时间：0.009300s][吞吐率：107.53req/s] [内存消耗：1,119.74kb] [文件加载：81]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'users',
+    1 => 'User',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '1185',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6Ijc0NTc3ODk2Njc3NzA4MzAzIiwiaWRlbnRpdHkiOiJ5ZXpodSIsImV4cCI6MTUxODYxMzQ0OH0.04t3ehCX_mD2UjBkrOGGCeCVl_61y5JKU6Gv64WjdTo',
+  'identity' => 'yezhu',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+)
+[ info ] [ PARAM ] array (
+  'userInfo' => 
+  array (
+    'errMsg' => 'getUserInfo:ok',
+    'rawData' => '{"nickName":"我欲乘风归去","gender":1,"language":"zh_CN","city":"","province":"","country":"Jamaica","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIOSUCxE9Rka960unmVHtgJo6OuDJuicgvhcukTUicsRa50kiaD9icd6syOAYU1KfbRcIaZuPlibgaMcgA/0"}',
+    'userInfo' => 
+    array (
+      'nickName' => '我欲乘风归去',
+      'gender' => 1,
+      'language' => 'zh_CN',
+      'city' => '',
+      'province' => '',
+      'country' => 'Jamaica',
+      'avatarUrl' => 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIOSUCxE9Rka960unmVHtgJo6OuDJuicgvhcukTUicsRa50kiaD9icd6syOAYU1KfbRcIaZuPlibgaMcgA/0',
+    ),
+    'signature' => '765f7aeeffa2ee22f7adfe76f4064da204b7a931',
+    'encryptedData' => 'gfo2rSot57yAaCZf0/dEsvtcbeLXqpdsH8HZ8AHN5F6nHulFpnY3EmE0DrdOi3NwOzIAsRBC16CH0vqq78waeZTwWCtSfy3mUwHcGyFYgLSxh7VYUFmmNu9cJ3FNQZ5lRQAyLmxJQxVaB6nevwnTAX5KZiDnVfdPKtWGFuBhtb/TfJGziOQYj8xPcNr1kIlzlMzSolbsqSixYk+JlwacDxETjgSkxaAoxhsH2loMITogVDIK04H9FvaYvBJtKeO+tVkDSuhqQz23/mstdNeC/DTlneO0Bfv13pDIYbRmAPTHCTNErWMKKGB1ej+UQXVz3VLIC4TM7HHiDzeIJhMJJjtEAYUYiNmf/R9/GIdpdaIXZd3TkRWtkaKxDU0YLn/e9zpxwDeOjD8bRjZaM2CnYH+3U0SzzkRRvti/so02wjpzqsBLmQ6Lz2gSVVlRt5ByBjjhYPVaPVk4v8765F2ATo9MSLtaqy/UCYltvUmXYX8=',
+    'iv' => '4H2gmZQ5liJ9/r6sI7ntfQ==',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\users\controller\User->getUserInfo[ /data/wwwroot/weiju01/application/users/controller/User.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000318s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000589s ]
+[ sql ] [ SQL ] UPDATE `wj_users`  SET `user_name`='我欲乘风归去',`user_icon`='https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIOSUCxE9Rka960unmVHtgJo6OuDJuicgvhcukTUicsRa50kiaD9icd6syOAYU1KfbRcIaZuPlibgaMcgA/0',`user_unionid`=''  WHERE  `user_id` = '74577896677708303' [ RunTime:0.003133s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:04:10+08:00 ] 172.17.132.116 171.210.62.40 POST /open/wechat/getopenid
+[ info ] api.cfoeu.cn/open/wechat/getopenid [运行时间：0.174307s][吞吐率：5.74req/s] [内存消耗：1,181.46kb] [文件加载：102]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'open',
+    1 => 'Wechat',
+    2 => 'getOpenid',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '43',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+)
+[ info ] [ PARAM ] array (
+  'code' => '071WnKD51vT9aN1ccbF51aKzD51WnKDN',
+)
+[ info ] [ RUN ] app\open\controller\Wechat->getOpenid[ /data/wwwroot/weiju01/application/open/controller/Wechat.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000292s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000567s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:04:10+08:00 ] 172.17.132.116 171.210.62.40 POST /users/upinfo
+[ info ] api.cfoeu.cn/users/upinfo [运行时间：0.008591s][吞吐率：116.40req/s] [内存消耗：1,119.74kb] [文件加载：81]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'users',
+    1 => 'User',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '1185',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6Ijc0NTc3ODk2Njc3NzA4MzAzIiwiaWRlbnRpdHkiOiJ5ZXpodSIsImV4cCI6MTUxODYxMzQ1MH0.bDqG30x1Q47t5mc22amSLrhk7OXGH1j90Qz3fNXCcLw',
+  'identity' => 'yezhu',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+)
+[ info ] [ PARAM ] array (
+  'userInfo' => 
+  array (
+    'errMsg' => 'getUserInfo:ok',
+    'rawData' => '{"nickName":"我欲乘风归去","gender":1,"language":"zh_CN","city":"","province":"","country":"Jamaica","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIOSUCxE9Rka960unmVHtgJo6OuDJuicgvhcukTUicsRa50kiaD9icd6syOAYU1KfbRcIaZuPlibgaMcgA/0"}',
+    'userInfo' => 
+    array (
+      'nickName' => '我欲乘风归去',
+      'gender' => 1,
+      'language' => 'zh_CN',
+      'city' => '',
+      'province' => '',
+      'country' => 'Jamaica',
+      'avatarUrl' => 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIOSUCxE9Rka960unmVHtgJo6OuDJuicgvhcukTUicsRa50kiaD9icd6syOAYU1KfbRcIaZuPlibgaMcgA/0',
+    ),
+    'signature' => '765f7aeeffa2ee22f7adfe76f4064da204b7a931',
+    'encryptedData' => 'u/UemcZ0Y+fKE+3Wo7CUIZmA6378jjBdSntgBMY7kS7nYMsnRoVDLGCoQqxIcdIeRwXD3q+To0Fxh77/PwKvQ6JMSrZQZJ0HVqzd2AECNicgJoVWcel5g7PjGq33bqxpOLdMv20QjUH9FFubmCvZhNmokR5vTSf847VfuU+XK7MhsXUP0+5zpYiiwM0TrhNkVgjnGLLhHv3yoC3EJ8d+UwGsZP4Z9I1yuwvVMH0Dx1i9QQrpZHlkf7mGTAdebLUck1Watj8UwuMim3HxIcf4W6Ui09LNen+FcWXqEuDlsF+f222kBZ73qha4xe0FlXc7CUuKZPkn98WptTS5sDaetbY+f/uqZ46mQ8D+wD0EkqlvplZLEGKvcSnOdGY9DJqCzCNbSbtxeVFgTdXeMCzpseLZ+qMytA3xQiAfIPsBZNxE6vZpchjw+kzEJ5cpoaDC2TXrc68CYQw91b17qwtNjptBAdNCQ1OsjkX0N1yykzQ=',
+    'iv' => '2A3Y1QbGUXMzLrU8IG1cNw==',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\users\controller\User->getUserInfo[ /data/wwwroot/weiju01/application/users/controller/User.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000290s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000565s ]
+[ sql ] [ SQL ] UPDATE `wj_users`  SET `user_name`='我欲乘风归去',`user_icon`='https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIOSUCxE9Rka960unmVHtgJo6OuDJuicgvhcukTUicsRa50kiaD9icd6syOAYU1KfbRcIaZuPlibgaMcgA/0',`user_unionid`=''  WHERE  `user_id` = '74577896677708303' [ RunTime:0.002556s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:04:18+08:00 ] 172.17.132.116 171.210.62.40 POST /open/wechat/getopenid
+[ info ] api.cfoeu.cn/open/wechat/getopenid [运行时间：0.179303s][吞吐率：5.58req/s] [内存消耗：1,181.46kb] [文件加载：102]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'open',
+    1 => 'Wechat',
+    2 => 'getOpenid',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '43',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+)
+[ info ] [ PARAM ] array (
+  'code' => '001S6dR51R3gXM1zoET51R38R51S6dRE',
+)
+[ info ] [ RUN ] app\open\controller\Wechat->getOpenid[ /data/wwwroot/weiju01/application/open/controller/Wechat.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000332s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000646s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:04:19+08:00 ] 172.17.132.116 171.210.62.40 POST /users/upinfo
+[ info ] api.cfoeu.cn/users/upinfo [运行时间：0.008893s][吞吐率：112.45req/s] [内存消耗：1,119.74kb] [文件加载：81]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'users',
+    1 => 'User',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '1185',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6Ijc0NTc3ODk2Njc3NzA4MzAzIiwiaWRlbnRpdHkiOiJ5ZXpodSIsImV4cCI6MTUxODYxMzQ1OH0.CVDGWR0emQy3-xJvaYd-rd_eAnbVsK3WH5oceVyBgtE',
+  'identity' => 'yezhu',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+)
+[ info ] [ PARAM ] array (
+  'userInfo' => 
+  array (
+    'errMsg' => 'getUserInfo:ok',
+    'rawData' => '{"nickName":"我欲乘风归去","gender":1,"language":"zh_CN","city":"","province":"","country":"Jamaica","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIOSUCxE9Rka960unmVHtgJo6OuDJuicgvhcukTUicsRa50kiaD9icd6syOAYU1KfbRcIaZuPlibgaMcgA/0"}',
+    'userInfo' => 
+    array (
+      'nickName' => '我欲乘风归去',
+      'gender' => 1,
+      'language' => 'zh_CN',
+      'city' => '',
+      'province' => '',
+      'country' => 'Jamaica',
+      'avatarUrl' => 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIOSUCxE9Rka960unmVHtgJo6OuDJuicgvhcukTUicsRa50kiaD9icd6syOAYU1KfbRcIaZuPlibgaMcgA/0',
+    ),
+    'signature' => '765f7aeeffa2ee22f7adfe76f4064da204b7a931',
+    'encryptedData' => 'OFCOiNHQ4cv2b0wvMODfriYD+LZTswifTUaX+4pf1/+K8zy16g4c92EOpHMgLJEubWlsj6Nznhk43gN95DdVZlkb9+KxDrJ9wp1ZwcpCx7gMthJuriKtzd4s8k9Ar/2rTJc1Guw2QBOK9ogFTTDVE4Bra3hf36dW2eSihE+Cwr1RA+W45NxoUGCpEKpUl7189dUtufIET5n8tQIoecRtwvzIEMgxzlNrU2rebL3robkUd1yNPmqg8Ukqd/mJBMVsWorBSMRwr3zJpWeBlQKogOrGsukA5m6lPNHbITxNfIKxzBJQhYgW18J55642+voJJFTlidzdOsoEx0Uqd8E7PIocXluxy6TEtBaRvW1f60/QTBd7TzWkaxDV2UbXzhP4k+M/KbGc1OUx+l1kZupRvDAxVdgyKbLXYkjVln8YSl0aw7Vo21gkZapddjMMs9c7vu5hUxHEFrljXult+T/IugrpRZPR4wltwT3c6shh5MA=',
+    'iv' => '5jEY65AePTtNADoCJlSbEQ==',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\users\controller\User->getUserInfo[ /data/wwwroot/weiju01/application/users/controller/User.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000311s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000593s ]
+[ sql ] [ SQL ] UPDATE `wj_users`  SET `user_name`='我欲乘风归去',`user_icon`='https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIOSUCxE9Rka960unmVHtgJo6OuDJuicgvhcukTUicsRa50kiaD9icd6syOAYU1KfbRcIaZuPlibgaMcgA/0',`user_unionid`=''  WHERE  `user_id` = '74577896677708303' [ RunTime:0.002566s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:04:20+08:00 ] 172.17.132.116 171.210.62.40 POST /shop/prizes
+[ info ] api.cfoeu.cn/shop/prizes [运行时间：0.005859s][吞吐率：170.68req/s] [内存消耗：1,087.50kb] [文件加载：74]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prizes',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '13',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6Ijc0NTc3ODk2Njc3NzA4MzAzIiwiaWRlbnRpdHkiOiJ5ZXpodSIsImV4cCI6MTUxODYxMzQ1OH0.CVDGWR0emQy3-xJvaYd-rd_eAnbVsK3WH5oceVyBgtE',
+  'identity' => 'yezhu',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+)
+[ info ] [ PARAM ] array (
+  'search' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\prizes\controller\Index->index[ /data/wwwroot/weiju01/application/prizes/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000314s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000613s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_prizes` [ RunTime:0.000438s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:04:20+08:00 ] 172.17.132.116 171.210.62.40 GET /rank/challenges_rank
+[ info ] api.cfoeu.cn/rank/challenges_rank [运行时间：0.004547s][吞吐率：219.93req/s] [内存消耗：1,085.09kb] [文件加载：74]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'rank',
+    1 => 'Rank',
+    2 => 'challenges_rank',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6Ijc0NTc3ODk2Njc3NzA4MzAzIiwiaWRlbnRpdHkiOiJ5ZXpodSIsImV4cCI6MTUxODYxMzQ1OH0.CVDGWR0emQy3-xJvaYd-rd_eAnbVsK3WH5oceVyBgtE',
+  'identity' => 'yezhu',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\rank\controller\Rank->challenges_rank[ /data/wwwroot/weiju01/application/rank/controller/Rank.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000259s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000473s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:04:20+08:00 ] 172.17.132.116 171.210.62.40 GET /rule/description
+[ info ] api.cfoeu.cn/rule/description [运行时间：0.004741s][吞吐率：210.93req/s] [内存消耗：1,088.59kb] [文件加载：74]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'rule',
+    1 => 'Rule',
+    2 => 'ruleDescription',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6Ijc0NTc3ODk2Njc3NzA4MzAzIiwiaWRlbnRpdHkiOiJ5ZXpodSIsImV4cCI6MTUxODYxMzQ1OH0.CVDGWR0emQy3-xJvaYd-rd_eAnbVsK3WH5oceVyBgtE',
+  'identity' => 'yezhu',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\rule\controller\Rule->ruleDescription[ /data/wwwroot/weiju01/application/rule/controller/Rule.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000249s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_rule` [ RunTime:0.000401s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:04:20+08:00 ] 172.17.132.116 171.210.62.40 GET /rank/prizes_rank
+[ info ] api.cfoeu.cn/rank/prizes_rank [运行时间：0.004054s][吞吐率：246.67req/s] [内存消耗：1,089.31kb] [文件加载：77]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'rank',
+    1 => 'Rank',
+    2 => 'prizes_rank',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6Ijc0NTc3ODk2Njc3NzA4MzAzIiwiaWRlbnRpdHkiOiJ5ZXpodSIsImV4cCI6MTUxODYxMzQ1OH0.CVDGWR0emQy3-xJvaYd-rd_eAnbVsK3WH5oceVyBgtE',
+  'identity' => 'yezhu',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\rank\controller\Rank->prizes_rank[ /data/wwwroot/weiju01/application/rank/controller/Rank.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000234s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000463s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:04:20+08:00 ] 172.17.132.116 171.210.62.40 POST /rank/group_rank
+[ info ] api.cfoeu.cn/rank/group_rank [运行时间：0.005594s][吞吐率：178.76req/s] [内存消耗：1,088.10kb] [文件加载：74]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'rank',
+    1 => 'Rank',
+    2 => 'group_rank',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '47',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6Ijc0NTc3ODk2Njc3NzA4MzAzIiwiaWRlbnRpdHkiOiJ5ZXpodSIsImV4cCI6MTUxODYxMzQ1OH0.CVDGWR0emQy3-xJvaYd-rd_eAnbVsK3WH5oceVyBgtE',
+  'identity' => 'yezhu',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+)
+[ info ] [ PARAM ] array (
+  'group_openid' => 'Gj9vL4lE0O5w8FyEwGYW_4r93t9k',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\rank\controller\Rank->group_rank[ /data/wwwroot/weiju01/application/rank/controller/Rank.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000255s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_group` [ RunTime:0.000375s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:04:20+08:00 ] 172.17.132.116 171.210.62.40 POST /challenge/total
+[ info ] api.cfoeu.cn/challenge/total [运行时间：0.004773s][吞吐率：209.51req/s] [内存消耗：1,082.89kb] [文件加载：75]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'challenge',
+    1 => 'Challenge',
+    2 => 'challengeTotal',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'loginway' => 'loginway',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6Ijc0NTc3ODk2Njc3NzA4MzAzIiwiaWRlbnRpdHkiOiJ5ZXpodSIsImV4cCI6MTUxODYxMzQ1OH0.CVDGWR0emQy3-xJvaYd-rd_eAnbVsK3WH5oceVyBgtE',
+  'identity' => 'yezhu',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\challenge\controller\Challenge->challengeTotal[ /data/wwwroot/weiju01/application/challenge/controller/Challenge.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000280s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_challenge_log` [ RunTime:0.000401s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:04:20+08:00 ] 172.17.132.116 171.210.62.40 POST /open/wechat/getopenid
+[ info ] api.cfoeu.cn/open/wechat/getopenid [运行时间：0.166488s][吞吐率：6.01req/s] [内存消耗：1,181.46kb] [文件加载：102]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'open',
+    1 => 'Wechat',
+    2 => 'getOpenid',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '43',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0213oHbu1se3Pc00ymfu1CsDbu13oHb6',
+)
+[ info ] [ RUN ] app\open\controller\Wechat->getOpenid[ /data/wwwroot/weiju01/application/open/controller/Wechat.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000260s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000492s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:04:21+08:00 ] 172.17.132.116 171.210.62.40 POST /users/upinfo
+[ info ] api.cfoeu.cn/users/upinfo [运行时间：0.008313s][吞吐率：120.29req/s] [内存消耗：1,119.74kb] [文件加载：81]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'users',
+    1 => 'User',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '1185',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6Ijc0NTc3ODk2Njc3NzA4MzAzIiwiaWRlbnRpdHkiOiJ5ZXpodSIsImV4cCI6MTUxODYxMzQ2MH0.ZjPileOLvsHbCB57Bz7m5qBZQBfdeMW7zZrLR-yhF3g',
+  'identity' => 'yezhu',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+)
+[ info ] [ PARAM ] array (
+  'userInfo' => 
+  array (
+    'errMsg' => 'getUserInfo:ok',
+    'rawData' => '{"nickName":"我欲乘风归去","gender":1,"language":"zh_CN","city":"","province":"","country":"Jamaica","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIOSUCxE9Rka960unmVHtgJo6OuDJuicgvhcukTUicsRa50kiaD9icd6syOAYU1KfbRcIaZuPlibgaMcgA/0"}',
+    'userInfo' => 
+    array (
+      'nickName' => '我欲乘风归去',
+      'gender' => 1,
+      'language' => 'zh_CN',
+      'city' => '',
+      'province' => '',
+      'country' => 'Jamaica',
+      'avatarUrl' => 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIOSUCxE9Rka960unmVHtgJo6OuDJuicgvhcukTUicsRa50kiaD9icd6syOAYU1KfbRcIaZuPlibgaMcgA/0',
+    ),
+    'signature' => '765f7aeeffa2ee22f7adfe76f4064da204b7a931',
+    'encryptedData' => '0FXSz/DTILW20f26Qu7VeFG8OKCVTwQfRqT1z5khmalv3C3RmOOxPb34ptJXeqDe3OZllRLtWUFX17cc2HFjIqEbcdcZuUTXoKo/50RuvIUbUAXiX1fbaxTI6Iw1Lq+FKMzr7v/aOFAY1NIX3z/0E4XF8lO+i9nT5XgP4RxC5YtivVhIrikrcMFkjQeiPwepZXFdHI92Ckr9q9Y+09xLwvbe9MAT/A69QDev4peubb2RV4+MKnLmectC89rzHXLgZXuvD9wtPr8w1VONOi4q9IjPsZSUtZTHrfOoP/QRm6SCwzOyMa6iOE47Po1ucX4JlOzja2B1E77QvDh6f2TlBDLCcTCOHVX5QafWh/UXK0x2qgYOEFMSQs7XAIq6b3lptaxaPPmisI7AmBpBIslIYyf7smH4x/ZA/KQedg0q3J+TT5eCiKeuh+p1OLxFiK/9h723eQuOdcFivfGVGi0/s3wsy5kJlpbGmY59LLeNBMM=',
+    'iv' => 'xyT/yg0YDUvwjE2CWB+yQA==',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\users\controller\User->getUserInfo[ /data/wwwroot/weiju01/application/users/controller/User.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000292s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000549s ]
+[ sql ] [ SQL ] UPDATE `wj_users`  SET `user_name`='我欲乘风归去',`user_icon`='https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIOSUCxE9Rka960unmVHtgJo6OuDJuicgvhcukTUicsRa50kiaD9icd6syOAYU1KfbRcIaZuPlibgaMcgA/0',`user_unionid`=''  WHERE  `user_id` = '74577896677708303' [ RunTime:0.002326s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:04:31+08:00 ] 172.17.132.116 171.210.62.40 POST /open/wechat/getopenid
+[ info ] api.cfoeu.cn/open/wechat/getopenid [运行时间：0.173347s][吞吐率：5.77req/s] [内存消耗：1,181.46kb] [文件加载：102]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'open',
+    1 => 'Wechat',
+    2 => 'getOpenid',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '43',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+)
+[ info ] [ PARAM ] array (
+  'code' => '061AX4As0yFkse1U8Azs04E0As0AX4AW',
+)
+[ info ] [ RUN ] app\open\controller\Wechat->getOpenid[ /data/wwwroot/weiju01/application/open/controller/Wechat.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000331s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000657s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:04:31+08:00 ] 172.17.132.116 171.210.62.40 POST /users/upinfo
+[ info ] api.cfoeu.cn/users/upinfo [运行时间：0.009412s][吞吐率：106.25req/s] [内存消耗：1,119.74kb] [文件加载：81]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'users',
+    1 => 'User',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '1185',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/4G Language/zh_CN',
+  'content-type' => 'application/json',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6Ijc0NTc3ODk2Njc3NzA4MzAzIiwiaWRlbnRpdHkiOiJ5ZXpodSIsImV4cCI6MTUxODYxMzQ3MX0.tY1mrxA-0uvM-bh31fDP2xXqqr1r3JpTqg_NmTGb1PU',
+  'identity' => 'yezhu',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+)
+[ info ] [ PARAM ] array (
+  'userInfo' => 
+  array (
+    'errMsg' => 'getUserInfo:ok',
+    'rawData' => '{"nickName":"我欲乘风归去","gender":1,"language":"zh_CN","city":"","province":"","country":"Jamaica","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIOSUCxE9Rka960unmVHtgJo6OuDJuicgvhcukTUicsRa50kiaD9icd6syOAYU1KfbRcIaZuPlibgaMcgA/0"}',
+    'userInfo' => 
+    array (
+      'nickName' => '我欲乘风归去',
+      'gender' => 1,
+      'language' => 'zh_CN',
+      'city' => '',
+      'province' => '',
+      'country' => 'Jamaica',
+      'avatarUrl' => 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIOSUCxE9Rka960unmVHtgJo6OuDJuicgvhcukTUicsRa50kiaD9icd6syOAYU1KfbRcIaZuPlibgaMcgA/0',
+    ),
+    'signature' => '765f7aeeffa2ee22f7adfe76f4064da204b7a931',
+    'encryptedData' => 'clN32iVQyAGxWpNY4zIBuYZc6XUHe4QfN3QA6pHG7ymCqL8ioaQl8fa8BOeMSqiTZScuPSih8Z3szGcFKn72480QZONpwG8kKwPOFv/REEwbtdCStBLrPTTKBdbBoFGOzcEPGJ5bI1Y16YfqPzoSvxTlHwSRdSwvAUgFmfY+NBTy6T7V0ofeOx4YvNpRsHkWr3v7QhAnq2rWq7j4pvSr9MlP9yte0VOpFcELNFDq5j2BzV8wxD/e2AvSLr3leGrp6FbL31ELRGm4OU6/Q4vOFCOvF6EHpstpQp977zWuvXqyisx9b6csJjx/diXVBeVPu0I/0KVDOfWxkEAjvcmCdeikl0vTjwJAu5J4uz6ZQfQyUKYgBES6YnLMpWQyMaJRTDUAUh0V+CLzuBMuuuA/3VlI+yCWqbKkPXSCa4FV7Pwx4KA1oiJ6Ajh4sfQAkPqjcga/FkioNthAArKmoJqZw+XgmxteI5RckmuTKa1JcOo=',
+    'iv' => 'ile5/Tbp3BH+6ZnbJkqyDw==',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\users\controller\User->getUserInfo[ /data/wwwroot/weiju01/application/users/controller/User.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000356s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000628s ]
+[ sql ] [ SQL ] UPDATE `wj_users`  SET `user_name`='我欲乘风归去',`user_icon`='https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIOSUCxE9Rka960unmVHtgJo6OuDJuicgvhcukTUicsRa50kiaD9icd6syOAYU1KfbRcIaZuPlibgaMcgA/0',`user_unionid`=''  WHERE  `user_id` = '74577896677708303' [ RunTime:0.003023s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:05:28+08:00 ] 172.17.132.116 101.226.103.60 POST /pay/success
+[ info ] api.cfoeu.cn/pay/success [运行时间：0.007242s][吞吐率：138.08req/s] [内存消耗：1,074.09kb] [文件加载：80]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pay',
+    1 => 'PayBack',
+    2 => 'pay_success',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '857',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\pay\controller\PayBack->pay_success[ /data/wwwroot/weiju01/application/pay/controller/PayBack.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000344s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_pay_orders` [ RunTime:0.000477s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:08:04+08:00 ] 172.17.132.116 140.207.54.74 POST /pay/success
+[ info ] api.cfoeu.cn/pay/success [运行时间：0.006631s][吞吐率：150.81req/s] [内存消耗：1,074.09kb] [文件加载：80]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pay',
+    1 => 'PayBack',
+    2 => 'pay_success',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '857',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\pay\controller\PayBack->pay_success[ /data/wwwroot/weiju01/application/pay/controller/PayBack.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000378s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_pay_orders` [ RunTime:0.000465s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:10:41+08:00 ] 172.17.132.116 171.223.167.72 POST /open/wechat/getopenid
+[ info ] api.cfoeu.cn/open/wechat/getopenid [运行时间：0.192431s][吞吐率：5.20req/s] [内存消耗：1,181.53kb] [文件加载：102]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'open',
+    1 => 'Wechat',
+    2 => 'getOpenid',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '43',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.6.2 NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'host' => 'api.cfoeu.cn',
+)
+[ info ] [ PARAM ] array (
+  'code' => '071hG4h21JyfiO1oCWf21XDgh21hG4hV',
+)
+[ info ] [ RUN ] app\open\controller\Wechat->getOpenid[ /data/wwwroot/weiju01/application/open/controller/Wechat.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000366s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000635s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:10:41+08:00 ] 172.17.132.116 171.223.167.72 POST /challenge/total
+[ info ] api.cfoeu.cn/challenge/total [运行时间：0.005876s][吞吐率：170.18req/s] [内存消耗：1,082.48kb] [文件加载：75]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'challenge',
+    1 => 'Challenge',
+    2 => 'challengeTotal',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.6.2 NetType/WIFI Language/zh_CN',
+  'content-length' => '0',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'loginway' => 'loginway',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6IjUiLCJpZGVudGl0eSI6Inllemh1IiwiZXhwIjoxNTE4NjEzODQxfQ.zqWjkxTwv-Q58dh-Zr1PdVeUMX2YzVlGyrpeMtpqphg',
+  'accept' => '*/*',
+  'identity' => 'yezhu',
+  'host' => 'api.cfoeu.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\challenge\controller\Challenge->challengeTotal[ /data/wwwroot/weiju01/application/challenge/controller/Challenge.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000326s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_challenge_log` [ RunTime:0.000444s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:10:42+08:00 ] 172.17.132.116 171.223.167.72 POST /users/upinfo
+[ info ] api.cfoeu.cn/users/upinfo [运行时间：0.009317s][吞吐率：107.33req/s] [内存消耗：1,118.61kb] [文件加载：81]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'users',
+    1 => 'User',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6IjUiLCJpZGVudGl0eSI6Inllemh1IiwiZXhwIjoxNTE4NjEzODQxfQ.zqWjkxTwv-Q58dh-Zr1PdVeUMX2YzVlGyrpeMtpqphg',
+  'identity' => 'yezhu',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.6.2 NetType/WIFI Language/zh_CN',
+  'content-length' => '1191',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'host' => 'api.cfoeu.cn',
+)
+[ info ] [ PARAM ] array (
+  'userInfo' => 
+  array (
+    'errMsg' => 'getUserInfo:ok',
+    'rawData' => '{"nickName":"Demon","gender":1,"language":"zh_CN","city":"Berkeley City","province":"California","country":"US","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKZjKxa1w6zgU4pxTKu504Qf49tTuWFNiakEH47IpQqalEO8SSN7jYgicgSI6JJHaGX742SzIfPmGibg/0"}',
+    'userInfo' => 
+    array (
+      'nickName' => 'Demon',
+      'gender' => 1,
+      'language' => 'zh_CN',
+      'city' => 'Berkeley City',
+      'province' => 'California',
+      'country' => 'US',
+      'avatarUrl' => 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKZjKxa1w6zgU4pxTKu504Qf49tTuWFNiakEH47IpQqalEO8SSN7jYgicgSI6JJHaGX742SzIfPmGibg/0',
+    ),
+    'signature' => '61c92c60067832b4017d47f59f5c28901360c91b',
+    'encryptedData' => 'el/pNyYiOTvLeTMS6eZU+S49bikOsOS79sJJaMVCNM82/+FCOsv/xgXt9n1N6x/cbiseRSaQqxl4V3hcJ1iQHvePtuwYM6lcfAqLzeGyf8W3arfJwNklB6o5n5vInainaZfH7kt3qHRw+E+1fqmajwgD1F98dmhdmtefs76Bv5kMHBv8m/mJNQ/9H0RZbQQPV1bUrZI8H1QAok6tLwb4PqBlaG4Ks3Ve2jTO83mG7f9NtMCYIkROptFX/HuakcfGD1zdf72PQBgr2yBvAcaCkRjSBaIXYF5ocunOsbEDbZ0knxH9Jj9LPponDfOFaBWtbJQ+ymekDmKHBraZCiOjZkMDlVjkViiGs1HWoiq+lN+/w0jHv90zTkR3IIuGSDz8/m67mTIsr+JxdV2jzHjV0CJAYsdcI4R7A/ipladBwrhL81wIKj1mjvvvm754wuLPOmI9Kwxr/yxrNNdz7MsXljAsyOLzB4bWo+N6vB7LX7Y=',
+    'iv' => '8gsDA0a/qTz60m3p6sE30A==',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\users\controller\User->getUserInfo[ /data/wwwroot/weiju01/application/users/controller/User.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000279s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000537s ]
+[ sql ] [ SQL ] UPDATE `wj_users`  SET `user_name`='Demon',`user_icon`='https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKZjKxa1w6zgU4pxTKu504Qf49tTuWFNiakEH47IpQqalEO8SSN7jYgicgSI6JJHaGX742SzIfPmGibg/0',`user_unionid`=''  WHERE  `user_id` = '5' [ RunTime:0.003035s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:10:42+08:00 ] 172.17.132.116 171.223.167.72 GET /rank/challenges_rank
+[ info ] api.cfoeu.cn/rank/challenges_rank [运行时间：0.004829s][吞吐率：207.09req/s] [内存消耗：1,084.94kb] [文件加载：74]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'rank',
+    1 => 'Rank',
+    2 => 'challenges_rank',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6IjUiLCJpZGVudGl0eSI6Inllemh1IiwiZXhwIjoxNTE4NjEzODQxfQ.zqWjkxTwv-Q58dh-Zr1PdVeUMX2YzVlGyrpeMtpqphg',
+  'identity' => 'yezhu',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.6.2 NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\rank\controller\Rank->challenges_rank[ /data/wwwroot/weiju01/application/rank/controller/Rank.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000251s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000504s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:10:42+08:00 ] 172.17.132.116 171.223.167.72 GET /rank/prizes_rank
+[ info ] api.cfoeu.cn/rank/prizes_rank [运行时间：0.004499s][吞吐率：222.27req/s] [内存消耗：1,089.13kb] [文件加载：77]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'rank',
+    1 => 'Rank',
+    2 => 'prizes_rank',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6IjUiLCJpZGVudGl0eSI6Inllemh1IiwiZXhwIjoxNTE4NjEzODQxfQ.zqWjkxTwv-Q58dh-Zr1PdVeUMX2YzVlGyrpeMtpqphg',
+  'identity' => 'yezhu',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.6.2 NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\rank\controller\Rank->prizes_rank[ /data/wwwroot/weiju01/application/rank/controller/Rank.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000268s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000472s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:10:42+08:00 ] 172.17.132.116 171.223.167.72 POST /rank/group_rank
+[ info ] api.cfoeu.cn/rank/group_rank [运行时间：0.005014s][吞吐率：199.43req/s] [内存消耗：1,084.98kb] [文件加载：74]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'rank',
+    1 => 'Rank',
+    2 => 'group_rank',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6IjUiLCJpZGVudGl0eSI6Inllemh1IiwiZXhwIjoxNTE4NjEzODQxfQ.zqWjkxTwv-Q58dh-Zr1PdVeUMX2YzVlGyrpeMtpqphg',
+  'identity' => 'yezhu',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.6.2 NetType/WIFI Language/zh_CN',
+  'content-length' => '18',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'host' => 'api.cfoeu.cn',
+)
+[ info ] [ PARAM ] array (
+  'group_openid' => 0,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\rank\controller\Rank->group_rank[ /data/wwwroot/weiju01/application/rank/controller/Rank.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000262s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000477s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_group` [ RunTime:0.000409s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:10:42+08:00 ] 172.17.132.116 171.223.167.72 POST /shop/prizes
+[ info ] api.cfoeu.cn/shop/prizes [运行时间：0.005266s][吞吐率：189.89req/s] [内存消耗：1,087.10kb] [文件加载：74]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prizes',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6IjUiLCJpZGVudGl0eSI6Inllemh1IiwiZXhwIjoxNTE4NjEzODQxfQ.zqWjkxTwv-Q58dh-Zr1PdVeUMX2YzVlGyrpeMtpqphg',
+  'identity' => 'yezhu',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.6.2 NetType/WIFI Language/zh_CN',
+  'content-length' => '13',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'host' => 'api.cfoeu.cn',
+)
+[ info ] [ PARAM ] array (
+  'search' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\prizes\controller\Index->index[ /data/wwwroot/weiju01/application/prizes/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000277s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_prizes` [ RunTime:0.000403s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:11:23+08:00 ] 172.17.132.116 171.223.167.72 POST /challenge/total
+[ info ] api.cfoeu.cn/challenge/total [运行时间：0.006204s][吞吐率：161.19req/s] [内存消耗：1,082.48kb] [文件加载：75]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'challenge',
+    1 => 'Challenge',
+    2 => 'challengeTotal',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.6.2 NetType/WIFI Language/zh_CN',
+  'content-length' => '0',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'loginway' => 'loginway',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6IjUiLCJpZGVudGl0eSI6Inllemh1IiwiZXhwIjoxNTE4NjEzODQxfQ.zqWjkxTwv-Q58dh-Zr1PdVeUMX2YzVlGyrpeMtpqphg',
+  'accept' => '*/*',
+  'identity' => 'yezhu',
+  'host' => 'api.cfoeu.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\challenge\controller\Challenge->challengeTotal[ /data/wwwroot/weiju01/application/challenge/controller/Challenge.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000352s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_challenge_log` [ RunTime:0.000454s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:11:23+08:00 ] 172.17.132.116 171.223.167.72 POST /shop/prizes
+[ info ] api.cfoeu.cn/shop/prizes [运行时间：0.005769s][吞吐率：173.34req/s] [内存消耗：1,087.10kb] [文件加载：74]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prizes',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6IjUiLCJpZGVudGl0eSI6Inllemh1IiwiZXhwIjoxNTE4NjEzODQxfQ.zqWjkxTwv-Q58dh-Zr1PdVeUMX2YzVlGyrpeMtpqphg',
+  'identity' => 'yezhu',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.6.2 NetType/WIFI Language/zh_CN',
+  'content-length' => '13',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'host' => 'api.cfoeu.cn',
+)
+[ info ] [ PARAM ] array (
+  'search' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\prizes\controller\Index->index[ /data/wwwroot/weiju01/application/prizes/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000316s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_prizes` [ RunTime:0.000430s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:11:23+08:00 ] 172.17.132.116 171.223.167.72 POST /rank/group_rank
+[ info ] api.cfoeu.cn/rank/group_rank [运行时间：0.005320s][吞吐率：187.97req/s] [内存消耗：1,084.98kb] [文件加载：74]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'rank',
+    1 => 'Rank',
+    2 => 'group_rank',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6IjUiLCJpZGVudGl0eSI6Inllemh1IiwiZXhwIjoxNTE4NjEzODQxfQ.zqWjkxTwv-Q58dh-Zr1PdVeUMX2YzVlGyrpeMtpqphg',
+  'identity' => 'yezhu',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.6.2 NetType/WIFI Language/zh_CN',
+  'content-length' => '18',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'host' => 'api.cfoeu.cn',
+)
+[ info ] [ PARAM ] array (
+  'group_openid' => 0,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\rank\controller\Rank->group_rank[ /data/wwwroot/weiju01/application/rank/controller/Rank.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000300s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_group` [ RunTime:0.000418s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:11:23+08:00 ] 172.17.132.116 171.223.167.72 GET /rank/challenges_rank
+[ info ] api.cfoeu.cn/rank/challenges_rank [运行时间：0.005896s][吞吐率：169.60req/s] [内存消耗：1,084.94kb] [文件加载：74]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'rank',
+    1 => 'Rank',
+    2 => 'challenges_rank',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6IjUiLCJpZGVudGl0eSI6Inllemh1IiwiZXhwIjoxNTE4NjEzODQxfQ.zqWjkxTwv-Q58dh-Zr1PdVeUMX2YzVlGyrpeMtpqphg',
+  'identity' => 'yezhu',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.6.2 NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\rank\controller\Rank->challenges_rank[ /data/wwwroot/weiju01/application/rank/controller/Rank.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000226s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000565s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:11:23+08:00 ] 172.17.132.116 171.223.167.72 GET /rank/prizes_rank
+[ info ] api.cfoeu.cn/rank/prizes_rank [运行时间：0.005827s][吞吐率：171.62req/s] [内存消耗：1,089.13kb] [文件加载：77]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'rank',
+    1 => 'Rank',
+    2 => 'prizes_rank',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6IjUiLCJpZGVudGl0eSI6Inllemh1IiwiZXhwIjoxNTE4NjEzODQxfQ.zqWjkxTwv-Q58dh-Zr1PdVeUMX2YzVlGyrpeMtpqphg',
+  'identity' => 'yezhu',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.6.2 NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\rank\controller\Rank->prizes_rank[ /data/wwwroot/weiju01/application/rank/controller/Rank.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000225s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000563s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:22:19+08:00 ] 172.17.132.116 101.226.103.60 POST /pay/success
+[ info ] api.cfoeu.cn/pay/success [运行时间：0.006607s][吞吐率：151.35req/s] [内存消耗：1,074.09kb] [文件加载：80]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pay',
+    1 => 'PayBack',
+    2 => 'pay_success',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '857',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\pay\controller\PayBack->pay_success[ /data/wwwroot/weiju01/application/pay/controller/PayBack.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000332s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_pay_orders` [ RunTime:0.000440s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:26:38+08:00 ] 172.17.132.116 140.207.54.76 POST /pay/success
+[ info ] api.cfoeu.cn/pay/success [运行时间：0.006787s][吞吐率：147.34req/s] [内存消耗：1,074.09kb] [文件加载：80]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pay',
+    1 => 'PayBack',
+    2 => 'pay_success',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '857',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\pay\controller\PayBack->pay_success[ /data/wwwroot/weiju01/application/pay/controller/PayBack.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000372s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_pay_orders` [ RunTime:0.000453s ]
+---------------------------------------------------------------
+[ 2018-02-07T21:26:57+08:00 ] 172.17.132.116 216.218.206.66 GET /
+[ info ] 47.94.219.102/ [运行时间：0.004987s][吞吐率：200.52req/s] [内存消耗：827.88kb] [文件加载：58]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.219.102',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\common\controller\Index->index[ /data/wwwroot/weiju01/application/common/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-07T21:30:20+08:00 ] 172.17.132.116 140.207.54.76 POST /pay/success
+[ info ] api.cfoeu.cn/pay/success [运行时间：0.007011s][吞吐率：142.63req/s] [内存消耗：1,074.09kb] [文件加载：80]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pay',
+    1 => 'PayBack',
+    2 => 'pay_success',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '857',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\pay\controller\PayBack->pay_success[ /data/wwwroot/weiju01/application/pay/controller/PayBack.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000339s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_pay_orders` [ RunTime:0.000431s ]
+---------------------------------------------------------------
+[ 2018-02-07T22:38:55+08:00 ] 172.17.132.116 171.212.208.59 POST /open/wechat/getopenid
+[ info ] api.cfoeu.cn/open/wechat/getopenid [运行时间：0.170228s][吞吐率：5.87req/s] [内存消耗：1,181.46kb] [文件加载：102]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'open',
+    1 => 'Wechat',
+    2 => 'getOpenid',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '43',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/WIFI Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/WIFI Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+)
+[ info ] [ PARAM ] array (
+  'code' => '011pmuzx0MlzEj1S1Jzx0oKgzx0pmuzx',
+)
+[ info ] [ RUN ] app\open\controller\Wechat->getOpenid[ /data/wwwroot/weiju01/application/open/controller/Wechat.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000340s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000636s ]
+---------------------------------------------------------------
+[ 2018-02-07T22:38:56+08:00 ] 172.17.132.116 171.212.208.59 POST /users/upinfo
+[ info ] api.cfoeu.cn/users/upinfo [运行时间：0.008925s][吞吐率：112.04req/s] [内存消耗：1,119.74kb] [文件加载：81]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'users',
+    1 => 'User',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '1185',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/WIFI Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/WIFI Language/zh_CN',
+  'content-type' => 'application/json',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6Ijc0NTc3ODk2Njc3NzA4MzAzIiwiaWRlbnRpdHkiOiJ5ZXpodSIsImV4cCI6MTUxODYxOTEzNX0.fH0262SkcqjncEqdbS_s_Kwl74xCoarPi6CTJDAZ7UU',
+  'identity' => 'yezhu',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+)
+[ info ] [ PARAM ] array (
+  'userInfo' => 
+  array (
+    'errMsg' => 'getUserInfo:ok',
+    'rawData' => '{"nickName":"我欲乘风归去","gender":1,"language":"zh_CN","city":"","province":"","country":"Jamaica","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIOSUCxE9Rka960unmVHtgJo6OuDJuicgvhcukTUicsRa50kiaD9icd6syOAYU1KfbRcIaZuPlibgaMcgA/0"}',
+    'userInfo' => 
+    array (
+      'nickName' => '我欲乘风归去',
+      'gender' => 1,
+      'language' => 'zh_CN',
+      'city' => '',
+      'province' => '',
+      'country' => 'Jamaica',
+      'avatarUrl' => 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIOSUCxE9Rka960unmVHtgJo6OuDJuicgvhcukTUicsRa50kiaD9icd6syOAYU1KfbRcIaZuPlibgaMcgA/0',
+    ),
+    'signature' => '41117215e537c75c51f6c25537b7e55e6ebda4e3',
+    'encryptedData' => 'bazZryoXJrCgjlDtJ0ctXwyHkSl8zFl6GFBsmGUnNDip+GBeaiECjy72xySXo9bRT3+YLsOG7ifi3FtlUeFW6kgMy2fU2OyOlbhlX1gHLKLNwvsXsBUjBIqKGzA/pXPHu8EGrCSK+yu65/BLhoSA0881mfO4rsqqJL/O9yM7IlvCfHNK1UT9YQw0iUbdGxmg/ksyvdYUARHMKSJeeZlw3IfTpAoTqpgeEQgJJpHA0gAPAg+79E5GQnwpT1ntmGXi7njGLgbEvcTI3AjtUfY3/jTAHa2MfNC7HGJcCpK6HcdNrzEL/ZXypV0ElIUdI9NSKIFTncRtFhiSKMOC23vdNiC//W33SFTIrpFrW2ZoF8zoTBdH+9ZcgoGUSTAa+fzrYC/4W0keS2pbEotDC90ksEQ0CNj5IAUkRPYCaHG72esu9zifIICO0Tc3pQkfRVSWUxtXcusejJxm7TVlOqgPHA4qjqo2fnwZd6qFg4xnxcM=',
+    'iv' => 'E8yy5mnPT8yXU7ln1sW2ZA==',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\users\controller\User->getUserInfo[ /data/wwwroot/weiju01/application/users/controller/User.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000299s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000569s ]
+[ sql ] [ SQL ] UPDATE `wj_users`  SET `user_name`='我欲乘风归去',`user_icon`='https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIOSUCxE9Rka960unmVHtgJo6OuDJuicgvhcukTUicsRa50kiaD9icd6syOAYU1KfbRcIaZuPlibgaMcgA/0',`user_unionid`=''  WHERE  `user_id` = '74577896677708303' [ RunTime:0.002496s ]
+---------------------------------------------------------------
+[ 2018-02-07T22:38:56+08:00 ] 172.17.132.116 171.212.208.59 POST /rank/group_rank
+[ info ] api.cfoeu.cn/rank/group_rank [运行时间：0.006299s][吞吐率：158.75req/s] [内存消耗：1,088.10kb] [文件加载：74]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'rank',
+    1 => 'Rank',
+    2 => 'group_rank',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '47',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/WIFI Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/WIFI Language/zh_CN',
+  'content-type' => 'application/json',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6Ijc0NTc3ODk2Njc3NzA4MzAzIiwiaWRlbnRpdHkiOiJ5ZXpodSIsImV4cCI6MTUxODYxOTEzNX0.fH0262SkcqjncEqdbS_s_Kwl74xCoarPi6CTJDAZ7UU',
+  'identity' => 'yezhu',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+)
+[ info ] [ PARAM ] array (
+  'group_openid' => 'Gj9vL4lE0O5w8FyEwGYW_4r93t9k',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\rank\controller\Rank->group_rank[ /data/wwwroot/weiju01/application/rank/controller/Rank.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000261s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_group` [ RunTime:0.000391s ]
+---------------------------------------------------------------
+[ 2018-02-07T22:38:56+08:00 ] 172.17.132.116 171.212.208.59 POST /challenge/total
+[ info ] api.cfoeu.cn/challenge/total [运行时间：0.005030s][吞吐率：198.81req/s] [内存消耗：1,082.89kb] [文件加载：75]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'challenge',
+    1 => 'Challenge',
+    2 => 'challengeTotal',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/WIFI Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/WIFI Language/zh_CN',
+  'content-type' => 'application/json',
+  'loginway' => 'loginway',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6Ijc0NTc3ODk2Njc3NzA4MzAzIiwiaWRlbnRpdHkiOiJ5ZXpodSIsImV4cCI6MTUxODYxOTEzNX0.fH0262SkcqjncEqdbS_s_Kwl74xCoarPi6CTJDAZ7UU',
+  'identity' => 'yezhu',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\challenge\controller\Challenge->challengeTotal[ /data/wwwroot/weiju01/application/challenge/controller/Challenge.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000230s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_challenge_log` [ RunTime:0.000424s ]
+---------------------------------------------------------------
+[ 2018-02-07T22:38:56+08:00 ] 172.17.132.116 171.212.208.59 GET /rank/prizes_rank
+[ info ] api.cfoeu.cn/rank/prizes_rank [运行时间：0.005743s][吞吐率：174.12req/s] [内存消耗：1,089.31kb] [文件加载：77]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'rank',
+    1 => 'Rank',
+    2 => 'prizes_rank',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/WIFI Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/WIFI Language/zh_CN',
+  'content-type' => 'application/json',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6Ijc0NTc3ODk2Njc3NzA4MzAzIiwiaWRlbnRpdHkiOiJ5ZXpodSIsImV4cCI6MTUxODYxOTEzNX0.fH0262SkcqjncEqdbS_s_Kwl74xCoarPi6CTJDAZ7UU',
+  'identity' => 'yezhu',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\rank\controller\Rank->prizes_rank[ /data/wwwroot/weiju01/application/rank/controller/Rank.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000252s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000599s ]
+---------------------------------------------------------------
+[ 2018-02-07T22:38:56+08:00 ] 172.17.132.116 171.212.208.59 GET /rule/description
+[ info ] api.cfoeu.cn/rule/description [运行时间：0.006037s][吞吐率：165.65req/s] [内存消耗：1,088.59kb] [文件加载：74]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'rule',
+    1 => 'Rule',
+    2 => 'ruleDescription',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/WIFI Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/WIFI Language/zh_CN',
+  'content-type' => 'application/json',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6Ijc0NTc3ODk2Njc3NzA4MzAzIiwiaWRlbnRpdHkiOiJ5ZXpodSIsImV4cCI6MTUxODYxOTEzNX0.fH0262SkcqjncEqdbS_s_Kwl74xCoarPi6CTJDAZ7UU',
+  'identity' => 'yezhu',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\rule\controller\Rule->ruleDescription[ /data/wwwroot/weiju01/application/rule/controller/Rule.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000284s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_rule` [ RunTime:0.000473s ]
+---------------------------------------------------------------
+[ 2018-02-07T22:38:56+08:00 ] 172.17.132.116 171.212.208.59 GET /rank/challenges_rank
+[ info ] api.cfoeu.cn/rank/challenges_rank [运行时间：0.009259s][吞吐率：108.00req/s] [内存消耗：1,085.09kb] [文件加载：74]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'rank',
+    1 => 'Rank',
+    2 => 'challenges_rank',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/WIFI Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/WIFI Language/zh_CN',
+  'content-type' => 'application/json',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6Ijc0NTc3ODk2Njc3NzA4MzAzIiwiaWRlbnRpdHkiOiJ5ZXpodSIsImV4cCI6MTUxODYxOTEzNX0.fH0262SkcqjncEqdbS_s_Kwl74xCoarPi6CTJDAZ7UU',
+  'identity' => 'yezhu',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\rank\controller\Rank->challenges_rank[ /data/wwwroot/weiju01/application/rank/controller/Rank.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000251s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000569s ]
+---------------------------------------------------------------
+[ 2018-02-07T22:38:56+08:00 ] 172.17.132.116 171.212.208.59 POST /shop/prizes
+[ info ] api.cfoeu.cn/shop/prizes [运行时间：0.006944s][吞吐率：144.01req/s] [内存消耗：1,087.50kb] [文件加载：74]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'prizes',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '13',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/WIFI Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/WIFI Language/zh_CN',
+  'content-type' => 'application/json',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6Ijc0NTc3ODk2Njc3NzA4MzAzIiwiaWRlbnRpdHkiOiJ5ZXpodSIsImV4cCI6MTUxODYxOTEzNX0.fH0262SkcqjncEqdbS_s_Kwl74xCoarPi6CTJDAZ7UU',
+  'identity' => 'yezhu',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+)
+[ info ] [ PARAM ] array (
+  'search' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\prizes\controller\Index->index[ /data/wwwroot/weiju01/application/prizes/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000229s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_prizes` [ RunTime:0.000384s ]
+---------------------------------------------------------------
+[ 2018-02-07T22:38:59+08:00 ] 172.17.132.116 171.212.208.59 POST /challenge/deal
+[ info ] api.cfoeu.cn/challenge/deal [运行时间：0.012613s][吞吐率：79.28req/s] [内存消耗：1,116.99kb] [文件加载：82]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'challenge',
+    1 => 'Challenge',
+    2 => 'deal',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '524',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/WIFI Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/WIFI Language/zh_CN',
+  'content-type' => 'application/json',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6Ijc0NTc3ODk2Njc3NzA4MzAzIiwiaWRlbnRpdHkiOiJ5ZXpodSIsImV4cCI6MTUxODYxOTEzNX0.fH0262SkcqjncEqdbS_s_Kwl74xCoarPi6CTJDAZ7UU',
+  'identity' => 'yezhu',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+)
+[ info ] [ PARAM ] array (
+  '_sign' => 'Rrvk/0xYrVTgFeo72CzVhRJl5OcDRj9OI+ZR64YIC7vNGi8qxlJ2oktSzkL//zVyZbQV35OWXruW1eyJUGSGQ2Y4XAhDDoyN00SE6i9C32TSHyeNwltcMtPtTsGYv4DoresYC6X8I5ApNe4O80okprC5VesEZd82qt8U4+M/c3EEyBmZlSZ9YyuopfyA3hWkVhof3ER6zj7b+2swvGLNFsIUB8nbS4vxYlgu/gOQCCj8KfF8AWBFvnbdDHzwsQ5q4J64I7fiyrfeKun3CCxXmU87WgKkn8EZ41axYJNQJ4yx2+ZqkhORVxOtEkkwn2KbwXYAV01qIF3fJwPMO3lX386iQ3YZnD3lkMTeTJK5TW/HeMI8hPOjucgFTvCilXmbeumgMG6anZCP3LkoQEgljFsyO+JciunkKcQTfakxuFQXlVIo07V1Hed62WTj1i9VzgA+U5QJXvw4+jPV6sfo+p/Yzt6BrrxOhfS+ITvCTpcaPuk4hnvPIE+oV3f5Pk/z',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\challenge\controller\Challenge->deal[ /data/wwwroot/weiju01/application/challenge/controller/Challenge.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000369s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000626s ]
+[ sql ] [ SQL ] UPDATE `wj_users`  SET `user_challenges`=user_challenges+1  WHERE  `user_id` = '74577896677708303'  AND `is_del` = 0 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] UPDATE `wj_users`  SET `reset_challenges`=reset_challenges-1  WHERE  `user_id` = '74577896677708303'  AND `is_del` = 0 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] UPDATE `wj_users`  SET `max_number`=500  WHERE  `user_id` = '74577896677708303'  AND `is_del` = 0 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_challenge_log` [ RunTime:0.000432s ]
+[ sql ] [ SQL ] INSERT INTO `wj_challenge_log` (`user_id` , `end_number` , `challenge_status` , `challenge_time`) VALUES ('74577896677708303' , 3 , '0' , 1518014339) [ RunTime:0.000197s ]
+---------------------------------------------------------------
+[ 2018-02-07T22:39:12+08:00 ] 172.17.132.116 171.212.208.59 POST /challenge/deal
+[ info ] api.cfoeu.cn/challenge/deal [运行时间：0.015638s][吞吐率：63.95req/s] [内存消耗：1,116.99kb] [文件加载：82]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'challenge',
+    1 => 'Challenge',
+    2 => 'deal',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '524',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/WIFI Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/WIFI Language/zh_CN',
+  'content-type' => 'application/json',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6Ijc0NTc3ODk2Njc3NzA4MzAzIiwiaWRlbnRpdHkiOiJ5ZXpodSIsImV4cCI6MTUxODYxOTEzNX0.fH0262SkcqjncEqdbS_s_Kwl74xCoarPi6CTJDAZ7UU',
+  'identity' => 'yezhu',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+)
+[ info ] [ PARAM ] array (
+  '_sign' => 'Dy4RjwmM7h5MoEiviG8AzhvBI8U/pM5Cpy+QHsK9YJNSHnVFvFAPH18a3hRocgBdPiTeWRlB/wBToqt7zHG4o9YqOGKB+nMZLzUFI6VJ/xmr4MaAOz+lNTEivbpvHrqABJGN9vW/mf/Eh6Ijbwat0mkYAntiOqFrrRkiqHJBAEt7dfC7+VTPMsXjtlUAuxu3AGxypYu2N1Ms86MGb2QkZbyO70uld5i/7ZpoVIZaoBVEWlkVU0e+sdJ+rAg4020R8IPNPARXpfg9lmXqSvnBlESFKigcgAfJKfrikwz++Wpa2F8W9pc3uwBcx4H7Mwxwi/H2cGWPt8a/9Rjd9eLRJhhTSC8S+vTAyk6ky0XbqQTWwTWOXj6NtPYgrPN9AIbXVR+TXC9rkPN701p3u8AkAa0dNslH2kWXq1PbuQb+of8vVabdOIlyv8xeXGUXA+zp+K7dhbqXgg5W2m5ep0NAZFj02Nq7h9xI3N1h3CxQK3fVNVE/KY08pBDqKN/uXePB',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\challenge\controller\Challenge->deal[ /data/wwwroot/weiju01/application/challenge/controller/Challenge.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000340s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000664s ]
+[ sql ] [ SQL ] UPDATE `wj_users`  SET `user_challenges`=user_challenges+1  WHERE  `user_id` = '74577896677708303'  AND `is_del` = 0 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] UPDATE `wj_users`  SET `reset_challenges`=reset_challenges-1  WHERE  `user_id` = '74577896677708303'  AND `is_del` = 0 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] UPDATE `wj_users`  SET `max_number`=500  WHERE  `user_id` = '74577896677708303'  AND `is_del` = 0 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_challenge_log` [ RunTime:0.000407s ]
+[ sql ] [ SQL ] INSERT INTO `wj_challenge_log` (`user_id` , `end_number` , `challenge_status` , `challenge_time`) VALUES ('74577896677708303' , 25 , '0' , 1518014352) [ RunTime:0.000209s ]
+---------------------------------------------------------------
+[ 2018-02-07T22:39:14+08:00 ] 172.17.132.116 171.212.208.59 POST /open/wechat/getopenid
+[ info ] api.cfoeu.cn/open/wechat/getopenid [运行时间：0.172445s][吞吐率：5.80req/s] [内存消耗：1,181.46kb] [文件加载：102]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'open',
+    1 => 'Wechat',
+    2 => 'getOpenid',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '43',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/WIFI Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/WIFI Language/zh_CN',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0712paXO1ZiKI210XqVO1fD9XO12paXZ',
+)
+[ info ] [ RUN ] app\open\controller\Wechat->getOpenid[ /data/wwwroot/weiju01/application/open/controller/Wechat.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000360s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000630s ]
+---------------------------------------------------------------
+[ 2018-02-07T22:39:14+08:00 ] 172.17.132.116 171.212.208.59 POST /users/upinfo
+[ info ] api.cfoeu.cn/users/upinfo [运行时间：0.009352s][吞吐率：106.93req/s] [内存消耗：1,119.74kb] [文件加载：81]
+[ info ] [ LANG ] /data/wwwroot/weiju01/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'users',
+    1 => 'User',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'api.cfoeu.cn',
+  'content-length' => '1185',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/043808 Mobile Safari/537.36 MicroMessenger/6.6.3.1240(0x26060331) NetType/WIFI Language/zh_CN MicroMessenger/6.6.3.1240(0x26060331) NetType/WIFI Language/zh_CN',
+  'content-type' => 'application/json',
+  'authorization' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0ZXJJRCI6Ijc0NTc3ODk2Njc3NzA4MzAzIiwiaWRlbnRpdHkiOiJ5ZXpodSIsImV4cCI6MTUxODYxOTE1NH0.LPVZP3ELvaB19PY1ifDnapuuuFdcxmNO4eYvvT70Ux8',
+  'identity' => 'yezhu',
+  'referer' => 'https://servicewechat.com/wxccf058a8c4b07245/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+)
+[ info ] [ PARAM ] array (
+  'userInfo' => 
+  array (
+    'errMsg' => 'getUserInfo:ok',
+    'rawData' => '{"nickName":"我欲乘风归去","gender":1,"language":"zh_CN","city":"","province":"","country":"Jamaica","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIOSUCxE9Rka960unmVHtgJo6OuDJuicgvhcukTUicsRa50kiaD9icd6syOAYU1KfbRcIaZuPlibgaMcgA/0"}',
+    'userInfo' => 
+    array (
+      'nickName' => '我欲乘风归去',
+      'gender' => 1,
+      'language' => 'zh_CN',
+      'city' => '',
+      'province' => '',
+      'country' => 'Jamaica',
+      'avatarUrl' => 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIOSUCxE9Rka960unmVHtgJo6OuDJuicgvhcukTUicsRa50kiaD9icd6syOAYU1KfbRcIaZuPlibgaMcgA/0',
+    ),
+    'signature' => '41117215e537c75c51f6c25537b7e55e6ebda4e3',
+    'encryptedData' => 'mcOiX8E+uMps57D8Vt4Q/fqPRz6GV+7gdTBjSfGGV4SeGHrom1ispIQfJ0hK9VQMnsPCYmW42082UrQXMaCplO/eU0caRGwLAetDUqxfkIyTxXOEvloBLJjIYbrbfbt32vn0ZxrFkE+udBl36UIe/LgX77MfCJRMRHeEMMatITacfRZi1WpyB9fYI7kRE+gjEFzM+xn1jVaKJItYQkuz0vA+Sfvi+C83JD5LnIdOMNpPH1xoN4uBP5k/QVfQ/9VsQ39RTMHhNwdnDDsHX+dsjcFLm6XO6v2czROZba5HnF+Z8aAjxXLQPM/fs6Ic4JXS6d/smImjvuU9l6kqszRoNI880DLNYM6hXRi1PcxEDL9rnQyU/cKCbcQ5UvxmS5zYf/S8e4tUD4aWwiinak4telqvR1BDSPvJrgyoa3dykkSlxfJgetMjdHjYnv5KukF5ElqM6zCKVShwV4hChUHtlDJEOn+mb3pwFxxsmR4udxY=',
+    'iv' => 'gqwTd6lZBl4BCCyfjI6zlA==',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\users\controller\User->getUserInfo[ /data/wwwroot/weiju01/application/users/controller/User.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000346s ] mysql:dbname=weiju;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wj_users` [ RunTime:0.000566s ]
+[ sql ] [ SQL ] UPDATE `wj_users`  SET `user_name`='我欲乘风归去',`user_icon`='https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIOSUCxE9Rka960unmVHtgJo6OuDJuicgvhcukTUicsRa50kiaD9icd6syOAYU1KfbRcIaZuPlibgaMcgA/0',`user_unionid`=''  WHERE  `user_id` = '74577896677708303' [ RunTime:0.002587s ]

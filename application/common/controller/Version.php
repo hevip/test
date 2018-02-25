@@ -19,7 +19,7 @@ class Version extends Controller
         return Response::create([
             'status'=>'success',
             'data'  => [
-                'version'=>0
+                'version'=>1
             ]
         ],'json');
     }

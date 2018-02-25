@@ -1,0 +1,1 @@
+{"bank_type":"CFT","cash_fee":"0.01","device_info":"WEB","fee_type":"CNY","is_subscribe":"N","buyer_id":"oj9vL4pY_6kOog-Xws4cKymgopqw","order_no":"WJ201802071803059320","pay_time":"2018-02-07 18:03:48","amount":"0.01","trade_type":"JSAPI","transaction_id":"4200000068201802078877902540","trade_state":"success","channel":"wx_charge","return_param":"123"}

@@ -195,5 +195,13 @@ return [
     'addlink1'=>'blank/Link/addlink1',
     'addlink2'=>'blank/Link/addlink2',
     'getlink1'=>'blank/Blank/getLink1',
-    'getlink2'=>'blank/Blank/getLink2'
+    'getlink2'=>'blank/Blank/getLink2',
+    'rank/update'=>'rank/Rank/update',
+    'loan/loan_list'=>'loan/loan/loan_list',
+    'loan/detail'=>'loan/loan/detail',
+    'loan/similar'=>'loan/loan/similar',
+    'loan/admin_list'=>'loan/loan/admin_list',
+    'loan/admin_add'=>'loan/loan/admin_add',
+    'loan/admin_update'=>'loan/loan/admin_update',
+    'loan/admin_del'=>'loan/loan/admin_del',
 ];
