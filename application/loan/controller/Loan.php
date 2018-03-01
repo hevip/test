@@ -82,7 +82,7 @@ class Loan extends Api
     }
 
     //修改
-    public function admin_update($loan_id,$data,$detail=0){
+    public function admin_update($loan_id,$data,$detail){
         $result = LoanService::admin_update($loan_id,$data,$detail);
         if($result){
             return $this->responseSuccess($result);

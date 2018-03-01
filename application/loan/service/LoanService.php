@@ -52,12 +52,7 @@ class LoanService extends BaseService
         ];
         $data = self::loan($loan_id);
         $data['detail'] = Db::name('loan_detail')->where($map)->value('content');
-        if(!$data['detail']){
-            self::setError(['status_code' => 4055, 'message' => '请输入正确ID']);
-            return false;
-        }else{
-            return $data;
-        }
+        return $data;
     }
 
     //同类贷款
@@ -74,7 +69,8 @@ class LoanService extends BaseService
         if($data){
             return $data;
         }else{
-            return '没有相同';
+
+            return null;
         }
     }
 
@@ -90,13 +86,18 @@ class LoanService extends BaseService
         ];
         if(!empty($search)){
             $data = Db::name('loan')->where($where)->where('title','like','%'.$search.'%')->select();
-            $data['count'] = Db::name('loan')->where($where)->where('title','like','%'.$search.'%')->count();
+            $count = Db::name('loan')->where($where)->where('title','like','%'.$search.'%')->count();
         }else{
             $data = Db::name('loan')->where($where)->limit($page,10)->select();
-            $data['count'] = Db::name('loan')->where($where)->count();
+            $count = Db::name('loan')->where($where)->count();
         }
         if($data){
-            foreach ($data as $k){
+            foreach($data as $k =>$v){
+                $data['count']['count'] = $count;
+                $data[$k]['detail'] = Db::name('loan_detail')->where('loan_id',$v['loan_id'])->value('content');
+
+            }
+            foreach($data as $k){
                 $datas[]= $k;
             }
             return $datas;
@@ -110,7 +111,7 @@ class LoanService extends BaseService
     //添加
     public static function admin_add($data,$detail){
         $msg = '';
-        $data = json_decode($data,true);
+        //$data = json_decode($data,true);
         if(empty($data['photo'])){$msg =  '请上传照片';}
         if(empty($data['title'])){$msg =  '请输入名称';}
         if(empty($data['desc'])) {$msg = '请输入描述';}
@@ -204,11 +205,11 @@ class LoanService extends BaseService
     public static function loan($loan_id){
         $map = ['loan_id'=>$loan_id,'is_del'=>0];
         $loan = Db::name('loan')->where($map)->find();
-        if(!$loan){
+        if(empty($loan)){
             self::setError(['status_code' => 4055, 'message' => '请输入正确的商户ID']);
             return false;
-        }else{
-            return $loan;
         }
+        return $loan;
+
     }
 }
